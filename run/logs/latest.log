@@ -1,0 +1,16 @@
+[23:45:24] [main/INFO]: Setting user: Player31
+[23:45:29] [main/WARN]: Skipping bad option: lastServer:
+[23:45:29] [main/INFO]: LWJGL Version: 2.9.4
+[23:45:34] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Arcadia
+[23:45:37] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:45:37] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[23:45:37] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:45:37] [Thread-5/INFO]: OpenAL initialized.
+[23:45:38] [Sound Library Loader/INFO]: Sound engine started
+[23:45:43] [main/INFO]: Created: 512x512 textures-atlas
+[23:45:46] [main/WARN]: Skipping bad option: lastServer:
+[23:45:46] [main/INFO]: Narrator library for x64 successfully loaded
+[23:45:47] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[23:46:52] [main/INFO]: Stopping!
+[23:46:52] [main/INFO]: SoundSystem shutting down...
+[23:46:53] [main/WARN]: Author: Paul Lamb, www.paulscode.com

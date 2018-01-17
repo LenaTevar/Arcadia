@@ -1,8 +1,16 @@
-[{
-"modid": "arcadiatech",
-"name": "Arcadia Technologies",
-"version": "{$version}",
-"mcversion":"{$mcversion}",
-"description" : "This is my first try of doing something like this :-|"
-"authorList":["Alcie"],
-}]
+[
+{
+  "modid": "arcadiatech",
+  "name": "Arcadia",
+  "description": "I don't even know what I'm going to do with this.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/LenaTevar/Arcadia/wiki",
+  "updateUrl": "",
+  "authorList": ["Lena_Alcie", "Efrik_The_Art"],
+  "credits": "Botania Team, I have your github opened 24/7 <3 <3",
+  "parent": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

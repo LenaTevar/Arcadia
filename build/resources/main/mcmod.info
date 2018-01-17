@@ -1,0 +1,16 @@
+[
+{
+  "modid": "arcadiatech",
+  "name": "Arcadia",
+  "description": "xxxxx",
+  "version": "0.01",
+  "mcversion": "1.12.2",
+  "url": "https://github.com/LenaTevar",
+  "updateUrl": "",
+  "authorList": ["aaa", "bvvb", "sda", "asd"],
+  "credits": "asdasdasd",
+  "parent": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
