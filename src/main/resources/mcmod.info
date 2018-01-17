@@ -1,0 +1,8 @@
+[{
+"modid": "arcadiatech",
+"name": "Arcadia Technologies",
+"version": "{$version}",
+"mcversion":"{$mcversion}",
+"description" : "This is my first try of doing something like this :-|"
+"authorList":["Alcie"],
+}]
