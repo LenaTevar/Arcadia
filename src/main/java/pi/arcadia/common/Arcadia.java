@@ -1,7 +1,7 @@
-package main.java.alcie.arcadia.common;
+package main.java.pi.arcadia.common;
 
-import main.java.alcie.arcadia.common.lib.Reference;
-import main.java.alcie.arcadia.common.proxy.CommonProxy;
+import main.java.pi.arcadia.common.lib.Reference;
+import main.java.pi.arcadia.common.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
