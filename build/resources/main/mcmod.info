@@ -1,14 +1,14 @@
 [
 {
-  "modid": "arcadiatech",
+  "modid": "arcadia",
   "name": "Arcadia",
-  "description": "xxxxx",
+  "description": "I don't even know what I'm going to do with this.",
   "version": "0.01",
   "mcversion": "1.12.2",
-  "url": "https://github.com/LenaTevar",
+  "url": "https://github.com/LenaTevar/Arcadia/wiki",
   "updateUrl": "",
-  "authorList": ["aaa", "bvvb", "sda", "asd"],
-  "credits": "asdasdasd",
+  "authorList": ["Lena_Alcie", "Efrik_The_Art"],
+  "credits": "Botania Team, I have your github opened 24/7 <3 <3",
   "parent": "",
   "screenshots": [],
   "dependencies": []
