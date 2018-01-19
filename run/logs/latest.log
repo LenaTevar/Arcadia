@@ -1,28 +1,44 @@
-[23:37:08] [main/INFO]: Setting user: Player718
-[23:37:14] [main/WARN]: Skipping bad option: lastServer:
-[23:37:14] [main/INFO]: LWJGL Version: 2.9.4
-[23:37:19] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Arcadia
-[23:37:22] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[23:37:22] [Thread-5/INFO]: Initializing LWJGL OpenAL
-[23:37:22] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[23:37:23] [Thread-5/INFO]: OpenAL initialized.
-[23:37:23] [Sound Library Loader/INFO]: Sound engine started
-[23:37:29] [main/INFO]: Created: 512x512 textures-atlas
-[23:37:31] [main/WARN]: Skipping bad option: lastServer:
-[23:37:31] [main/INFO]: Narrator library for x64 successfully loaded
-[23:37:33] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[23:37:40] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
-[23:37:40] [Server thread/INFO]: Generating keypair
-[23:37:41] [Server thread/INFO]: Loaded 488 advancements
-[23:37:41] [Server thread/INFO]: Preparing start region for level 0
-[23:37:42] [Server thread/INFO]: Changing view distance to 12, from 10
-[23:37:44] [Server thread/INFO]: Player718[local:E:b41bb977] logged in with entity id 92 at (361.5382364810901, 4.0, 176.76657433628907)
-[23:37:44] [Server thread/INFO]: Player718 joined the game
-[23:37:46] [Server thread/INFO]: Saving and pausing game...
-[23:37:46] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[23:37:46] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[23:37:46] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[23:37:47] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@1c2cf5b3[id=8ce64f24-c135-3001-9ff7-8b03d3719e4f,name=Player718,properties={},legacy=false]
+[21:44:16] [main/INFO]: Setting user: Player883
+[21:44:22] [main/WARN]: Skipping bad option: lastServer:
+[21:44:22] [main/INFO]: LWJGL Version: 2.9.4
+[21:44:27] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Arcadia
+[21:44:31] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:44:31] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[21:44:31] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:44:31] [Thread-5/ERROR]: Error in class 'LibraryLWJGLOpenAL'
+[21:44:31] [Thread-5/ERROR]: Unable to initialize OpenAL.  Probable cause: OpenAL not supported.
+[21:44:31] [Thread-5/WARN]: ERROR MESSAGE:
+[21:44:31] [Thread-5/INFO]: Could not locate OpenAL library.
+[21:44:31] [Thread-5/WARN]: STACK TRACE:
+[21:44:31] [Thread-5/INFO]: org.lwjgl.openal.AL.create(AL.java:156)
+[21:44:31] [Thread-5/INFO]: org.lwjgl.openal.AL.create(AL.java:102)
+[21:44:31] [Thread-5/INFO]: org.lwjgl.openal.AL.create(AL.java:206)
+[21:44:31] [Thread-5/INFO]: paulscode.sound.libraries.LibraryLWJGLOpenAL.init(LibraryLWJGLOpenAL.java:164)
+[21:44:31] [Thread-5/INFO]: paulscode.sound.SoundSystem.CommandNewLibrary(SoundSystem.java:1576)
+[21:44:31] [Thread-5/INFO]: paulscode.sound.SoundSystem.CommandQueue(SoundSystem.java:2572)
+[21:44:31] [Thread-5/INFO]: paulscode.sound.CommandThread.run(CommandThread.java:121)
+[21:44:32] [Sound Library Loader/WARN]: ERROR MESSAGE:
+[21:44:32] [Sound Library Loader/INFO]: Could not locate OpenAL library.
+[21:44:32] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:44:32] [Thread-7/INFO]: Switching to No Sound
+[21:44:32] [Thread-7/INFO]: (Silent Mode)
+[21:44:32] [Sound Library Loader/INFO]: Sound engine started
+[21:44:38] [main/INFO]: Created: 512x512 textures-atlas
+[21:44:42] [main/WARN]: Skipping bad option: lastServer:
+[21:44:42] [main/INFO]: Narrator library for x64 successfully loaded
+[21:44:43] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[21:44:51] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[21:44:51] [Server thread/INFO]: Generating keypair
+[21:44:52] [Server thread/INFO]: Loaded 488 advancements
+[21:44:52] [Server thread/INFO]: Preparing start region for level 0
+[21:44:53] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:44:55] [Server thread/INFO]: Player883[local:E:197533c4] logged in with entity id 106 at (365.0933772271526, 4.0, 173.6104986845646)
+[21:44:55] [Server thread/INFO]: Player883 joined the game
+[21:44:58] [Server thread/INFO]: Saving and pausing game...
+[21:44:58] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[21:44:58] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[21:44:58] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[21:44:58] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@7f2bd140[id=8e20979a-9b41-35b8-8d36-ad77135df934,name=Player883,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
@@ -44,21 +60,20 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_161]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_161]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
-[23:37:47] [main/INFO]: Loaded 6 advancements
-[23:37:53] [main/INFO]: Warning: Clientside chunk ticking took 358 ms
-[23:46:09] [Server thread/INFO]: Saving and pausing game...
-[23:46:09] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[23:46:09] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[23:46:09] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[23:46:10] [Server thread/INFO]: Stopping server
-[23:46:10] [Server thread/INFO]: Saving players
-[23:46:10] [Server thread/INFO]: Player718 lost connection: Disconnected
-[23:46:10] [Server thread/INFO]: Player718 left the game
-[23:46:10] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[23:46:10] [Server thread/INFO]: Saving worlds
-[23:46:10] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[23:46:10] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[23:46:10] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[23:46:13] [main/INFO]: Stopping!
-[23:46:13] [main/INFO]: SoundSystem shutting down...
-[23:46:13] [main/WARN]: Author: Paul Lamb, www.paulscode.com
+[21:44:58] [main/INFO]: Loaded 13 advancements
+[21:48:27] [Server thread/INFO]: Saving and pausing game...
+[21:48:27] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[21:48:27] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[21:48:27] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[21:48:28] [Server thread/INFO]: Stopping server
+[21:48:28] [Server thread/INFO]: Saving players
+[21:48:28] [Server thread/INFO]: Player883 lost connection: Disconnected
+[21:48:28] [Server thread/INFO]: Player883 left the game
+[21:48:28] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[21:48:28] [Server thread/INFO]: Saving worlds
+[21:48:28] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[21:48:28] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[21:48:28] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[21:48:34] [main/INFO]: Stopping!
+[21:48:34] [main/INFO]: SoundSystem shutting down...
+[21:48:34] [main/WARN]: Author: Paul Lamb, www.paulscode.com
