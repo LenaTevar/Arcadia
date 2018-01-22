@@ -5,7 +5,8 @@ item.plasto_axe.name=Plasto Axe
 item.plasto_shovel.name=Plasto Shovel
 item.plasto_pickaxe.name=Plasto Pickaxe
 item.plasto_sword.name=Plasto Sword
-item.plasto_hoe.name=Plasto How
+item.plasto_hoe.name=Plasto Hoe
+item.nuclear_shears.name=Nuclear Shears
 
 item.plasto_chestplate.name=Plasto Chestplate
 item.plasto_leggins.name=Plasto Leggins

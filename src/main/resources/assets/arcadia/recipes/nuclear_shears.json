@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A ",
+        " BA",
+        "A  "      
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        "B":
+        {
+        	"item": "arcadia:nuclear_core"
+        }
+    },
+    
+    "result":
+    {
+        "item": "arcadia:nuclear_shears",
+        "count": 1
+    }
+}

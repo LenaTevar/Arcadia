@@ -10,7 +10,6 @@ import main.java.pi.arcadia.core.interfaces.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemTool;
@@ -31,7 +30,7 @@ public class ToolAxe extends ItemTool implements IHasModel {
         super(material, EFFECTIVE_ON);
         setUnlocalizedName(name);
         setRegistryName(name);
-        setCreativeTab(CreativeTabs.TOOLS);
+        setCreativeTab(Arcadia.ArcadiaTab);
         
         ItemInit.ITEMS.add(this);
     }

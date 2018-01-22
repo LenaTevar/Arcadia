@@ -3,7 +3,6 @@ package main.java.pi.arcadia.common.tools;
 import main.java.pi.arcadia.common.Arcadia;
 import main.java.pi.arcadia.core.init.ItemInit;
 import main.java.pi.arcadia.core.interfaces.IHasModel;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemSpade;
 
 public class ToolShovel extends ItemSpade implements IHasModel {
@@ -12,7 +11,7 @@ public class ToolShovel extends ItemSpade implements IHasModel {
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.TOOLS);
+		setCreativeTab(Arcadia.ArcadiaTab);
 		
 		ItemInit.ITEMS.add(this);
 	}

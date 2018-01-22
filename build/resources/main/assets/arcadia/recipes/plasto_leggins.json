@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "A A",
+        "A A"     
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "arcadia:plastotextile"
+        }
+    },
+    
+    "result":
+    {
+        "item": "arcadia:plasto_leggins",
+        "count": 1
+    }
+}
