@@ -28,7 +28,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class Arcadia {
 	
 	public static Block plastoTextileBlock;
-	public static final CreativeTabs ArcadiaTab = new ArcadiaTab(1,"arcadiatab");
+	public static final CreativeTabs ArcadiaTab = new ArcadiaTab(0, "arcadia");
 	
 	@Instance
 	public static Arcadia instance1;
