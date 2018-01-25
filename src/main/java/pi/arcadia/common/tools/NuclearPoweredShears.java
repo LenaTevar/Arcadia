@@ -40,7 +40,10 @@ public class NuclearPoweredShears extends ItemShears implements IHasModel {
 	public boolean isDamageable() {
 		return false;
 	}
-
+	/*
+	 * Shears in area(range). 
+	 * If you want to use this code, be careful returning bool after the foreach actually finish looping through the list. 
+	 * */
 	@Override
 	public boolean itemInteractionForEntity(ItemStack itemstack, EntityPlayer player, EntityLivingBase entity, EnumHand hand)
 	{
@@ -53,6 +56,8 @@ public class NuclearPoweredShears extends ItemShears implements IHasModel {
 		AxisAlignedBB  entityBB = new AxisAlignedBB(entity.posX - range, entity.posY - range, entity.posZ - range,entity.posX + range, entity.posY + range, entity.posZ + range);
 		List<Entity> shearList = entity.world.getEntitiesWithinAABBExcludingEntity(player, entityBB);
 		boolean itworks = false;
+		
+		
 		for(Entity target : shearList) {
 
 			if(target instanceof IShearable) {
@@ -72,9 +77,7 @@ public class NuclearPoweredShears extends ItemShears implements IHasModel {
 					}
 					itemstack.damageItem(0, entity);
 				}
-			}
-			
-			
+			}		
 			itworks = true;
 		}
 		return itworks;

@@ -26,8 +26,8 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 public class Arcadia {
-	
-	public static Block plastoTextileBlock;
+	//25,01,18-10,27
+	//public static Block plastoTextileBlock;
 	public static final CreativeTabs ArcadiaTab = new ArcadiaTab(0, "arcadia");
 	
 	@Instance
