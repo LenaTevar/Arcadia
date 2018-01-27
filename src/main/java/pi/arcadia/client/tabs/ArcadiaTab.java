@@ -1,18 +1,18 @@
 package main.java.pi.arcadia.client.tabs;
 
-import main.java.pi.arcadia.core.init.ItemInit;
+import main.java.pi.arcadia.core.lib.libItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 
 public class ArcadiaTab extends CreativeTabs {
 
-	public ArcadiaTab(int index, String label) {
-		super(index, label);
+	public ArcadiaTab(String label) {
+		super(label);
 	}
 
 	@Override
 	public ItemStack getTabIconItem() {
-		return new ItemStack(ItemInit.NUCLEAR_CORE);
+		return new ItemStack(libItems.NUCLEAR_CORE);
 	}
 
 }
