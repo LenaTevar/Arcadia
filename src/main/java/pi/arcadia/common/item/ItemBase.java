@@ -12,7 +12,7 @@ public class ItemBase extends Item implements IHasModel {
 		setRegistryName(name);
 		setCreativeTab(Arcadia.ArcadiaTab);
 		
-		ItemInit.ITEMS.add(this);
+		//ItemInit.ITEMS.add(this);
 	}
 
 	@Override

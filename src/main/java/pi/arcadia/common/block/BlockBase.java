@@ -1,13 +1,10 @@
 package main.java.pi.arcadia.common.block;
 
 import main.java.pi.arcadia.common.Arcadia;
-import main.java.pi.arcadia.core.init.BlockInit;
-import main.java.pi.arcadia.core.init.ItemInit;
 import main.java.pi.arcadia.core.interfaces.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemBlock;
 
 public class BlockBase extends Block implements IHasModel{
 
@@ -17,10 +14,12 @@ public class BlockBase extends Block implements IHasModel{
 		setRegistryName(name);
 		setCreativeTab(Arcadia.ArcadiaTab);
 		
-		BlockInit.BLOCKS.add(this);
-		ItemInit.ITEMS.add(
-				new ItemBlock(this)
-				.setRegistryName(this.getRegistryName()));
+		//BlockInit.BLOCKS.add(this);
+		
+		
+//		ItemInit.ITEMS.add(
+//				new ItemBlock(this)
+//				.setRegistryName(this.getRegistryName()));
 		
 	}
 

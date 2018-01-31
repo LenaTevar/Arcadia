@@ -3,7 +3,6 @@ package main.java.pi.arcadia.common;
 import main.java.pi.arcadia.client.tabs.ArcadiaTab;
 import main.java.pi.arcadia.core.lib.Reference;
 import main.java.pi.arcadia.core.proxy.CommonProxy;
-import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -28,7 +27,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class Arcadia {
 	//25,01,18-10,27
 	//public static Block plastoTextileBlock;
-	public static final CreativeTabs ArcadiaTab = new ArcadiaTab(0, "arcadia");
+	public static final CreativeTabs ArcadiaTab = new ArcadiaTab("arcadia");
 	
 	@Instance
 	public static Arcadia instance1;
@@ -42,10 +41,7 @@ public class Arcadia {
 	
 	@EventHandler
 	public static void init(FMLInitializationEvent event) {
-		//Register new blocks and items and stuff
-	
-		
-		
+		//Register new blocks and items and stuff or not, idk	
 	}
 	
 	@EventHandler

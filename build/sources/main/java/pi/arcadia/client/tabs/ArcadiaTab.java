@@ -6,8 +6,8 @@ import net.minecraft.item.ItemStack;
 
 public class ArcadiaTab extends CreativeTabs {
 
-	public ArcadiaTab(int index, String label) {
-		super(index, label);
+	public ArcadiaTab(String label) {
+		super(label);
 	}
 
 	@Override

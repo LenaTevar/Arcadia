@@ -1,13 +1,27 @@
 package main.java.pi.arcadia.core.init;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import main.java.pi.arcadia.core.lib.libBlocks;
+import main.java.pi.arcadia.common.block.BlockBase;
+import main.java.pi.arcadia.core.handler.RegistryHandler;
 import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.item.ItemBlock;
 
 public class BlockInit {
-	public static final List<Block> BLOCKS = new ArrayList<Block>();
+	public BlockInit() {
+		this.init();
+	}
 	
-	public static final libBlocks MOD_BLOCKS = new libBlocks();
+	public static final Block BLOCK_PLASTOTEXTILE = new BlockBase("block_plastotextile", Material.IRON);
+	
+	
+	public void register(Block modBlock) {
+		RegistryHandler.BLOCKS.add(modBlock);
+		RegistryHandler.ITEMS.add(new ItemBlock(modBlock).setRegistryName(modBlock.getRegistryName()));
+	}
+	
+	
+	public void init() {
+		register(BLOCK_PLASTOTEXTILE);		
+	}
+	
 }
