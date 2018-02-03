@@ -48,7 +48,6 @@ public class RegistryHandler {
 		ITEMS.stream().filter(target-> target instanceof IHasModel)
 		.forEach(target->((IHasModel)target).registerModels());
 
-
 		BLOCKS.stream().filter(target-> target instanceof IHasModel)
 		.forEach(target->((IHasModel)target).registerModels());
 

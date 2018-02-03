@@ -50,6 +50,8 @@ public class ItemInit {
 	public static final Item CHESTPLATE_PLASTO_TIER2 = new ArmorBase("plasto_chestplate_tier2", ModMaterial.ARMOR_PLASTO_TIER2, 1, EntityEquipmentSlot.CHEST);
 	public static final Item LEGGINS_PLASTO_TIER2 = new ArmorBase("plasto_leggins_tier2", ModMaterial.ARMOR_PLASTO_TIER2, 2, EntityEquipmentSlot.LEGS);
 	public static final Item BOOTS_PLASTO_TIER2 = new ArmorBase("plasto_boots_tier2", ModMaterial.ARMOR_PLASTO_TIER2, 1, EntityEquipmentSlot.FEET);
+	
+	//public static final Item FORCE_FIELD_BELT = new ItemBase("force_field_belt");
 
 
 	public void register(Item item) {

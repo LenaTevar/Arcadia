@@ -13,10 +13,10 @@ item.plasto_leggins.name=Plasto Leggins
 item.plasto_boots.name=Plasto Boots
 item.plasto_helmet.name=Plasto Helmet
 
-item.plasto_chestplate_tier2.name=Heavy Plasto Chestplate
-item.plasto_leggins_tier2.name=Heavy Plasto Leggins
-item.plasto_boots_tier2.name=Heavy Plasto Boots
-item.plasto_helmet_tier2.name=Heavy Plasto Helmet
+item.plasto_chestplate_tier2.name=Reinforced Plasto Chestplate
+item.plasto_leggins_tier2.name=Reinforced Plasto Leggins
+item.plasto_boots_tier2.name=Reinforced Plasto Boots
+item.plasto_helmet_tier2.name=Reinforced Plasto Helmet
 
 
 item.plastotextile.name=Plasto Textile

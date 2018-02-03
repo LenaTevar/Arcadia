@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AA",
+        "AB",
+        " B"     
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "arcadia:plastotextile"
+        },
+        "B":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "arcadia:plasto_axe",
+        "count": 1
+    }
+}

@@ -1,7 +1,6 @@
 package main.java.pi.arcadia.common.item;
 
 import main.java.pi.arcadia.common.Arcadia;
-import main.java.pi.arcadia.core.init.ItemInit;
 import main.java.pi.arcadia.core.interfaces.IHasModel;
 import net.minecraft.item.Item;
 
