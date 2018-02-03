@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "arcadia:plastotextile"
+        },
+        "D": {
+            "item": "arcadia:nuclear_core"
+        }
+    },
+    "result": {
+        "item": "arcadia:force_field_belt",
+        "count": 1
+    }
+}

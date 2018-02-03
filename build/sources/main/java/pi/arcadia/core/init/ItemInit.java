@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import main.java.pi.arcadia.common.armor.ArmorBase;
+import main.java.pi.arcadia.common.baubles.BeltBaubles;
 import main.java.pi.arcadia.common.item.ItemBase;
 import main.java.pi.arcadia.common.tools.NuclearPoweredShears;
 import main.java.pi.arcadia.common.tools.ToolAxe;
@@ -50,6 +51,9 @@ public class ItemInit {
 	public static final Item CHESTPLATE_PLASTO_TIER2 = new ArmorBase("plasto_chestplate_tier2", ModMaterial.ARMOR_PLASTO_TIER2, 1, EntityEquipmentSlot.CHEST);
 	public static final Item LEGGINS_PLASTO_TIER2 = new ArmorBase("plasto_leggins_tier2", ModMaterial.ARMOR_PLASTO_TIER2, 2, EntityEquipmentSlot.LEGS);
 	public static final Item BOOTS_PLASTO_TIER2 = new ArmorBase("plasto_boots_tier2", ModMaterial.ARMOR_PLASTO_TIER2, 1, EntityEquipmentSlot.FEET);
+	
+	//baubles
+	public static final Item PFF_BELT = new BeltBaubles("force_field_belt");
 
 
 	public void register(Item item) {
@@ -77,6 +81,8 @@ public class ItemInit {
 		register(CHESTPLATE_PLASTO_TIER2);
 		register(LEGGINS_PLASTO_TIER2);
 		register(BOOTS_PLASTO_TIER2);
+		
+		register(PFF_BELT);
 	}
 
 }

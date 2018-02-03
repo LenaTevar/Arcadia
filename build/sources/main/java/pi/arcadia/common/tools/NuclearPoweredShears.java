@@ -6,6 +6,7 @@ import java.util.Random;
 import main.java.pi.arcadia.common.Arcadia;
 import main.java.pi.arcadia.core.init.ItemInit;
 import main.java.pi.arcadia.core.interfaces.IHasModel;
+import main.java.pi.arcadia.core.lib.Reference;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -22,7 +23,7 @@ import net.minecraftforge.common.IShearable;
 public class NuclearPoweredShears extends ItemShears implements IHasModel {
 
 	public NuclearPoweredShears(String name) {
-		setUnlocalizedName(name);
+		setUnlocalizedName(Reference.MODID + "." + name);
 		setRegistryName(name);
 		setCreativeTab(Arcadia.ArcadiaTab);
 		this.setMaxDamage(600);

@@ -1,28 +1,29 @@
-itemGroup.arcadiatab=Arcadia 
+itemGroup.arcadia=Arcadia 
 
 
-item.plasto_axe.name=Plasto Axe
-item.plasto_shovel.name=Plasto Shovel
-item.plasto_pickaxe.name=Plasto Pickaxe
-item.plasto_sword.name=Plasto Sword
-item.plasto_hoe.name=Plasto Hoe
-item.nuclear_shears.name=Nuclear Shears
+item.arcadia.arcadia.plasto_axe.name=Plasto Axe
+item.arcadia.plasto_shovel.name=Plasto Shovel
+item.arcadia.plasto_pickaxe.name=Plasto Pickaxe
+item.arcadia.plasto_sword.name=Plasto Sword
+item.arcadia.plasto_hoe.name=Plasto Hoe
+item.arcadia.nuclear_shears.name=Nuclear Shears
+item.arcadia.force_field_belt.name=Personal Force Field Belt
 
-item.plasto_chestplate.name=Plasto Chestplate
-item.plasto_leggins.name=Plasto Leggins
-item.plasto_boots.name=Plasto Boots
-item.plasto_helmet.name=Plasto Helmet
+item.arcadia.plasto_chestplate.name=Plasto Chestplate
+item.arcadia.plasto_leggins.name=Plasto Leggins
+item.arcadia.plasto_boots.name=Plasto Boots
+item.arcadia.plasto_helmet.name=Plasto Helmet
 
-item.plasto_chestplate_tier2.name=Reinforced Plasto Chestplate
-item.plasto_leggins_tier2.name=Reinforced Plasto Leggins
-item.plasto_boots_tier2.name=Reinforced Plasto Boots
-item.plasto_helmet_tier2.name=Reinforced Plasto Helmet
+item.arcadia.plasto_chestplate_tier2.name=Reinforced Plasto Chestplate
+item.arcadia.plasto_leggins_tier2.name=Reinforced Plasto Leggins
+item.arcadia.plasto_boots_tier2.name=Reinforced Plasto Boots
+item.arcadia.plasto_helmet_tier2.name=Reinforced Plasto Helmet
 
 
-item.plastotextile.name=Plasto Textile
-item.block_plastotextile.name=Plasto Textile Block
-item.nuclear_matter.name=Nuclear Matter
-item.nuclear_core.name=Nuclear Core
+item.arcadia.plastotextile.name=Plasto Textile
+item.arcadia.block_plastotextile.name=Plasto Textile Block
+item.arcadia.nuclear_matter.name=Nuclear Matter
+item.arcadia.nuclear_core.name=Nuclear Core
 
 
 tile.block_plastotextile.name=Plasto Textile Block
