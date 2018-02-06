@@ -24,16 +24,11 @@ public class ItemInit {
 
 	public static final List <Item> ITEMS = new ArrayList<Item>();
 
-	//	//Old libraries
-	//	public static final libArmor MOD_ARMORS = new libArmor();
-	//	public static final libItems MOD_ITEMS = new libItems();
-	//	public static final libTools MOD_TOOLS = new libTools();
-	//	
-
 	//Items
 	public static final Item PLASTOTEXTILE = new ItemBase("plastotextile");
 	public static final Item NUCLEAR_MATTER = new ItemBase("nuclear_matter");
 	public static final Item NUCLEAR_CORE = new ItemBase("nuclear_core");
+	
 	//tools				
 	public static final Item AXE_PLASTO = new ToolAxe("plasto_axe",ModMaterial.TOOL_PLASTO);
 	public static final Item HOE_PLASTO = new ToolHoe("plasto_hoe", ModMaterial.TOOL_PLASTO);

@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "facing=up": { "model": "arcadia:block_nanobulb" },
+        "facing=east": { "model": "arcadia:block_nanobulb_wall" },
+        "facing=south": { "model": "arcadia:block_nanobulb_wall", "y": 90 },
+        "facing=west": { "model": "arcadia:block_nanobulb_wall", "y": 180 },
+        "facing=north": { "model": "arcadia:block_nanobulb_wall", "y": 270 }
+    }
+}

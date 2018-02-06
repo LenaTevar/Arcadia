@@ -1,0 +1,6 @@
+{
+    "parent": "block/torch",
+    "textures": {
+        "torch": "arcadia:block/nanobulb_torch"
+    }
+}
