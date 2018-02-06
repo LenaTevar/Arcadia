@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B B",
+        "BAB",
+        "BBB"    
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "arcadia:plasto_chestplate"
+        },
+        "B":
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "arcadia:reinforced_chestplate",
+        "count": 1
+    }
+}

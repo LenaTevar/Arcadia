@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "arcadia:item/plasto_chestplate_tier2"
-    }
-}

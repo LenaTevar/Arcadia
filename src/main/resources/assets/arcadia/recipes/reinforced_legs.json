@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "ABA",
+        "A A",
+        "A A"     
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        "B":
+        {
+            "item": "arcadia:plasto_leggins"
+        }
+    },
+    
+    "result":
+    {
+        "item": "arcadia:reinforced_legs",
+        "count": 1
+    }
+}

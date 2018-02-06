@@ -21,10 +21,10 @@ public class ModMaterial {
 	public static final ArmorMaterial ARMOR_PLASTO = EnumHelper
 			.addArmorMaterial("armor_plastotextile", "arcadia:plastotextile", 
 					0, new int[]{1, 2, 3, 1}, 30, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F);
-	public static final ArmorMaterial ARMOR_PLASTO_TIER2 = EnumHelper
-			.addArmorMaterial("armor_plastotextile", "arcadia:plastotextile_tier2", 
+	public static final ArmorMaterial ARMOR_REINFORCED = EnumHelper
+			.addArmorMaterial("armor_reinforced", "arcadia:reinforced_armor", 
 					0, new int[]{2, 3, 4, 2}, 30, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 1.0F);
-	public static final ArmorMaterial ARMOR_PLASTO_TIER3 = EnumHelper
-			.addArmorMaterial("armor_plastotextile", "arcadia:plastotextile", 
+	public static final ArmorMaterial ARMOR_NUCLEAR= EnumHelper
+			.addArmorMaterial("armor_nuclear", "arcadia:nuclear_armor", 
 					0, new int[]{3, 4, 5, 3}, 30, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2.0F);
 }

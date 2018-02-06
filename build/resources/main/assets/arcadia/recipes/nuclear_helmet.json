@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "ABA",
+        "A A"     
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:reinforced_helmet"
+        },
+        "B":
+        {
+            "item": "arcadia:plasto_helmet"
+        }
+    },
+    
+    "result":
+    {
+        "item": "arcadia:nuclear_helmet",
+        "count": 1
+    }
+}

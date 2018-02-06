@@ -37,15 +37,21 @@ public class ItemInit {
 	public static final Item SWORD_PLASTO = new ToolSword("plasto_sword", ModMaterial.TOOL_PLASTO);
 	public static final Item NUCLEAR_SHEARS = new NuclearPoweredShears("nuclear_shears");
 
+	//Armour
 	public static final Item HELMET_PLASTO = new ArmorBase("plasto_helmet", ModMaterial.ARMOR_PLASTO, 1, EntityEquipmentSlot.HEAD);
 	public static final Item CHESTPLATE_PLASTO = new ArmorBase("plasto_chestplate", ModMaterial.ARMOR_PLASTO, 1, EntityEquipmentSlot.CHEST);
 	public static final Item LEGGINS_PLASTO = new ArmorBase("plasto_leggins", ModMaterial.ARMOR_PLASTO, 2, EntityEquipmentSlot.LEGS);
 	public static final Item BOOTS_PLASTO = new ArmorBase("plasto_boots", ModMaterial.ARMOR_PLASTO, 1, EntityEquipmentSlot.FEET);
 
-	public static final Item HELMET_PLASTO_TIER2 = new ArmorBase("plasto_helmet_tier2", ModMaterial.ARMOR_PLASTO_TIER2, 1, EntityEquipmentSlot.HEAD);
-	public static final Item CHESTPLATE_PLASTO_TIER2 = new ArmorBase("plasto_chestplate_tier2", ModMaterial.ARMOR_PLASTO_TIER2, 1, EntityEquipmentSlot.CHEST);
-	public static final Item LEGGINS_PLASTO_TIER2 = new ArmorBase("plasto_leggins_tier2", ModMaterial.ARMOR_PLASTO_TIER2, 2, EntityEquipmentSlot.LEGS);
-	public static final Item BOOTS_PLASTO_TIER2 = new ArmorBase("plasto_boots_tier2", ModMaterial.ARMOR_PLASTO_TIER2, 1, EntityEquipmentSlot.FEET);
+	public static final Item HELMET_REINFORCED = new ArmorBase("reinforced_helmet", ModMaterial.ARMOR_REINFORCED, 1, EntityEquipmentSlot.HEAD);
+	public static final Item CHESTPLATE_REINFORCED = new ArmorBase("reinforced_chestplate", ModMaterial.ARMOR_REINFORCED, 1, EntityEquipmentSlot.CHEST);
+	public static final Item LEGGINS_REINFORCED = new ArmorBase("reinforced_legs", ModMaterial.ARMOR_REINFORCED, 2, EntityEquipmentSlot.LEGS);
+	public static final Item BOOTS_REINFORCED = new ArmorBase("reinforced_boots", ModMaterial.ARMOR_REINFORCED, 1, EntityEquipmentSlot.FEET);
+	
+	public static final Item HELMET_NUCLEAR = new ArmorBase("nuclear_helmet", ModMaterial.ARMOR_NUCLEAR, 1, EntityEquipmentSlot.HEAD);
+	public static final Item CHESTPLATE_NUCLEAR = new ArmorBase("nuclear_chestplate", ModMaterial.ARMOR_NUCLEAR, 1, EntityEquipmentSlot.CHEST);
+	public static final Item LEGGINS_NUCLEAR = new ArmorBase("nuclear_legs", ModMaterial.ARMOR_NUCLEAR, 2, EntityEquipmentSlot.LEGS);
+	public static final Item BOOTS_NUCLEAR = new ArmorBase("nuclear_boots", ModMaterial.ARMOR_NUCLEAR, 1, EntityEquipmentSlot.FEET);
 	
 	//baubles
 	public static final Item PFF_BELT = new BeltBaubles("force_field_belt");
@@ -72,10 +78,15 @@ public class ItemInit {
 		register(LEGGINS_PLASTO);
 		register(BOOTS_PLASTO);
 		
-		register(HELMET_PLASTO_TIER2);
-		register(CHESTPLATE_PLASTO_TIER2);
-		register(LEGGINS_PLASTO_TIER2);
-		register(BOOTS_PLASTO_TIER2);
+		register(HELMET_REINFORCED);
+		register(BOOTS_REINFORCED);
+		register(CHESTPLATE_REINFORCED);
+		register(LEGGINS_REINFORCED);
+		
+		register(BOOTS_NUCLEAR);
+		register(CHESTPLATE_NUCLEAR);
+		register(HELMET_NUCLEAR);
+		register(LEGGINS_NUCLEAR);
 		
 		register(PFF_BELT);
 	}
