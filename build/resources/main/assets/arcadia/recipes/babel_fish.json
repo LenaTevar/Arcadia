@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#A"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:fish",
+            "data" : 0
+        },
+        "A": {
+            "item": "arcadia:nuclear_core"
+        }
+    },
+    "result": {
+        "item": "arcadia:babel_fish",
+        "count": 1
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#A"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:map"
+        },
+        "A": {
+            "item": "arcadia:nuclear_core"
+        }
+    },
+    "result": {
+        "item": "arcadia:directional_ticket",
+        "count": 1
+    }
+}

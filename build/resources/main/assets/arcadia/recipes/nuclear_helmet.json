@@ -11,11 +11,11 @@
     {
         "A":
         {
-            "item": "minecraft:reinforced_helmet"
+            "item": "minecraft:iron_ingot"
         },
         "B":
         {
-            "item": "arcadia:plasto_helmet"
+            "item": "arcadia:reinforced_helmet"
         }
     },
     

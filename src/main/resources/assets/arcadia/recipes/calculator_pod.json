@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#AG"4
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:item_frame"
+        },
+        "A": {
+            "item": "arcadia:nuclear_core",
+        },
+        "G": {
+        	"item": "minecraft:glass"
+        }
+    },
+    "result": {
+        "item": "arcadia:calculator_pod",
+        "count": 1
+    }
+}

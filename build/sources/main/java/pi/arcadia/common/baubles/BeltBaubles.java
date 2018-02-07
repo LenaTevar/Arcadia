@@ -61,7 +61,7 @@ public class BeltBaubles extends Item implements IBauble,IHasModel {
 	@Override
 	public void onWornTick(ItemStack itemstack, EntityLivingBase player) {
 		if (itemstack.getItemDamage()==0 && player.ticksExisted%39==0) {
-			player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,40,0,true,true));
+			player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,40,0,true,false));
 		}
 	}
 	

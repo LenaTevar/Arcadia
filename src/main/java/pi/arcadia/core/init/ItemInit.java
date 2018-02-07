@@ -5,7 +5,9 @@ import java.util.List;
 
 import main.java.pi.arcadia.common.armor.ArmorBase;
 import main.java.pi.arcadia.common.baubles.BeltBaubles;
+import main.java.pi.arcadia.common.baubles.HeadBaubles;
 import main.java.pi.arcadia.common.item.ItemBase;
+import main.java.pi.arcadia.common.item.Tablet;
 import main.java.pi.arcadia.common.tools.NuclearPoweredShears;
 import main.java.pi.arcadia.common.tools.ToolAxe;
 import main.java.pi.arcadia.common.tools.ToolHoe;
@@ -28,6 +30,8 @@ public class ItemInit {
 	public static final Item PLASTOTEXTILE = new ItemBase("plastotextile");
 	public static final Item NUCLEAR_MATTER = new ItemBase("nuclear_matter");
 	public static final Item NUCLEAR_CORE = new ItemBase("nuclear_core");
+	public static final Item CALCULATOR_POD = new Tablet("calculator_pod");
+	public static final Item TICKET = new ItemBase("directional_ticket");
 	
 	//tools				
 	public static final Item AXE_PLASTO = new ToolAxe("plasto_axe",ModMaterial.TOOL_PLASTO);
@@ -55,8 +59,8 @@ public class ItemInit {
 	
 	//baubles
 	public static final Item PFF_BELT = new BeltBaubles("force_field_belt");
-
-
+	public static final Item BABEL_FISH = new HeadBaubles("babel_fish");
+	
 	public void register(Item item) {
 		RegistryHandler.ITEMS.add(item);
 	}
@@ -65,6 +69,8 @@ public class ItemInit {
 		register(PLASTOTEXTILE);
 		register(NUCLEAR_MATTER);
 		register(NUCLEAR_CORE);
+		register(CALCULATOR_POD);
+		register(TICKET);
 		
 		register(AXE_PLASTO);
 		register(HOE_PLASTO);
@@ -89,6 +95,7 @@ public class ItemInit {
 		register(LEGGINS_NUCLEAR);
 		
 		register(PFF_BELT);
+		register(BABEL_FISH);
 	}
 
 }
