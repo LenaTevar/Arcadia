@@ -5,7 +5,7 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:map",
+            "item": "minecraft:map"
         },
         "A": {
             "item": "arcadia:nuclear_core"

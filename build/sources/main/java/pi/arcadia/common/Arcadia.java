@@ -41,7 +41,6 @@ public class Arcadia {
 	
 	@EventHandler
 	public static void init(FMLInitializationEvent event) {
-		//Register new blocks and items and stuff or not, idk	
 	}
 	
 	@EventHandler

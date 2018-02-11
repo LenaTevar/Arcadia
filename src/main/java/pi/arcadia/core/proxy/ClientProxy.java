@@ -1,5 +1,7 @@
 package main.java.pi.arcadia.core.proxy;
 
+import main.java.pi.arcadia.client.guide.GuiGuide;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.model.ModelLoader;
@@ -18,6 +20,12 @@ public class ClientProxy extends CommonProxy {
 					new ModelResourceLocation(
 							item.getRegistryName(),id)
 					);
+	}
+	
+	
+	@Override
+	public void drawArcadiaGuide() {
+		Minecraft.getMinecraft().displayGuiScreen(new GuiGuide());
 	}
 
 }

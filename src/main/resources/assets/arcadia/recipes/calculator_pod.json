@@ -1,14 +1,14 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#AG"4
+        "#AG"
     ],
     "key": {
         "#": {
             "item": "minecraft:item_frame"
         },
         "A": {
-            "item": "arcadia:nuclear_core",
+            "item": "arcadia:nuclear_core"
         },
         "G": {
         	"item": "minecraft:glass"

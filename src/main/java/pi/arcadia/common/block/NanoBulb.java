@@ -4,7 +4,6 @@ import main.java.pi.arcadia.common.Arcadia;
 import main.java.pi.arcadia.core.interfaces.IHasModel;
 import main.java.pi.arcadia.core.lib.Reference;
 import net.minecraft.block.BlockTorch;
-import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 
 public class NanoBulb extends BlockTorch implements IHasModel{

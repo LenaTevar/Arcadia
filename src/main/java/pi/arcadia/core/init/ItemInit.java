@@ -6,6 +6,7 @@ import java.util.List;
 import main.java.pi.arcadia.common.armor.ArmorBase;
 import main.java.pi.arcadia.common.baubles.BeltBaubles;
 import main.java.pi.arcadia.common.baubles.HeadBaubles;
+import main.java.pi.arcadia.common.item.ArcadiaGuide;
 import main.java.pi.arcadia.common.item.ItemBase;
 import main.java.pi.arcadia.common.item.Tablet;
 import main.java.pi.arcadia.common.tools.NuclearPoweredShears;
@@ -32,6 +33,7 @@ public class ItemInit {
 	public static final Item NUCLEAR_CORE = new ItemBase("nuclear_core");
 	public static final Item CALCULATOR_POD = new Tablet("calculator_pod");
 	public static final Item TICKET = new ItemBase("directional_ticket");
+	public static final Item GUIDE = new ArcadiaGuide("arcadia_guide");
 	
 	//tools				
 	public static final Item AXE_PLASTO = new ToolAxe("plasto_axe",ModMaterial.TOOL_PLASTO);
@@ -71,6 +73,7 @@ public class ItemInit {
 		register(NUCLEAR_CORE);
 		register(CALCULATOR_POD);
 		register(TICKET);
+		register(GUIDE);
 		
 		register(AXE_PLASTO);
 		register(HOE_PLASTO);
