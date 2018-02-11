@@ -1,634 +1,634 @@
-[14:49:32] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
-[14:49:32] [main/INFO] [FML/]: Forge Mod Loader version 14.23.1.2555 for Minecraft 1.12.2 loading
-[14:49:32] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_161, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_161\jre
-[14:49:32] [main/DEBUG] [FML/]: Java classpath at launch is:
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\minecraft\deobfedDeps\compileDummy.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\minecraft\deobfedDeps\providedDummy.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\minecraft\deobfedDeps\deobf\com\azanor\baubles\Baubles\1.12-1.5.2\Baubles-1.12-1.5.2.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\minecraft\net\minecraftforge\forge\1.12.2-14.23.1.2555\snapshot\20171003\forgeSrc-1.12.2-14.23.1.2555.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.1\f7be08ec23c21485b9b5a1cf1654c2ec8c58168d\jsr305-3.0.1.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\1.1\aef610b34a1be37fa851825f12372b78424d8903\patchy-1.1.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.4.0\cb208278274bf12ebdb56c61bd7407e6f774d65a\jna-4.4.0.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\platform\3.4.0\e3f70017be8100d3d6923f50b3d2ee17714e9c13\platform-3.4.0.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.3\cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a\jopt-simple-5.0.3.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.1.9.Final\97860965d6a0a6b98e7f569f3f966727b8db75\netty-all-4.1.9.Final.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\21.0\3a3d111be1be1b745edfa7d91678a12d7ed38709\guava-21.0.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.5\6c6c702c89bfff3cd9e80b04d668c5e190d588c6\commons-lang3-3.5.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.5\2852e6e05fbb95076fc091f6d1780f1f8fe35e0f\commons-io-2.5.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.25\9834cdf236c22e84b946bba989e2f94ef5897c3c\authlib-1.5.25.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.10.18\77a86d7596f49a6b01ad48f1a4a0d6546bc60df5\realms-1.10.18.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\7.1.0\9835253257524c1be7ab50c057aa2d418fb72082\fastutil-7.1.0.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.8.1\e801d13612e22cad62a3f4f3fe7fdbe6334a8e72\log4j-api-2.8.1.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.8.1\4ac28ff2f1ddf05dae3043a190451e8c46b73c31\log4j-core-2.8.1.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.10.3\48fd510879dff266c3815947de66e3d4809f8668\text2speech-1.10.3.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\jline\jline\2.13\2d9530d0a25daffaffda7c35037b046b627bb171\jline-2.13.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.2\3354e11e2b34215f06dab629ab88e06aca477c19\asm-debug-all-5.2.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.4-nightly-20150209\697517568c68e78ae0b4544145af031c81082dfe\lwjgl-2.9.4-nightly-20150209.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.4-nightly-20150209\d51a7c040a721d13efdfbd34f8b257b2df882ad0\lwjgl_util-2.9.4-nightly-20150209.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.5.2\79846ba34cbd89e2422d74d53752f993dcc2ccaf\vecmath-1.5.2.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.0.0\6ef160c3133a78de015830860197602ca1c855d3\java-objc-bridge-1.0.0.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.fusesource.jansi\jansi\1.11\655c643309c2f45a56a747fda70e3fadf57e9f11\jansi-1.11.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\931074f46c795d2f7b30ed6395df5715cfd7675b\lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\bcab850f8f487c3f4c4dbabde778bb82bd1a40ed\lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\minecraft\net\minecraftforge\forge\1.12.2-14.23.1.2555\start
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\Documents\MyMinecraftMods\Arcadia\build\libs\Arcadia-0.01.jar
-[14:49:32] [main/DEBUG] [FML/]: Java library path at launch is:
-[14:49:32] [main/DEBUG] [FML/]:     C:\Program Files\Java\jdk1.8.0_161\bin
-[14:49:32] [main/DEBUG] [FML/]:     C:\WINDOWS\Sun\Java\bin
-[14:49:32] [main/DEBUG] [FML/]:     C:\WINDOWS\system32
-[14:49:32] [main/DEBUG] [FML/]:     C:\WINDOWS
-[14:49:32] [main/DEBUG] [FML/]:     C:\ProgramData\Oracle\Java\javapath
-[14:49:32] [main/DEBUG] [FML/]:     C:\WINDOWS\system32
-[14:49:32] [main/DEBUG] [FML/]:     C:\WINDOWS
-[14:49:32] [main/DEBUG] [FML/]:     C:\WINDOWS\System32\Wbem
-[14:49:32] [main/DEBUG] [FML/]:     C:\WINDOWS\System32\WindowsPowerShell\v1.0\
-[14:49:32] [main/DEBUG] [FML/]:     C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
-[14:49:32] [main/DEBUG] [FML/]:     C:\HashiCorp\Vagrant\bin
-[14:49:32] [main/DEBUG] [FML/]:     C:\Program Files (x86)\GtkSharp\2.12\bin
-[14:49:32] [main/DEBUG] [FML/]:     C:\Program Files\Git\cmd
-[14:49:32] [main/DEBUG] [FML/]:     C:\WINDOWS\system32
-[14:49:32] [main/DEBUG] [FML/]:     C:\WINDOWS
-[14:49:32] [main/DEBUG] [FML/]:     C:\WINDOWS\System32\Wbem
-[14:49:32] [main/DEBUG] [FML/]:     C:\WINDOWS\System32\WindowsPowerShell\v1.0\
-[14:49:32] [main/DEBUG] [FML/]:     C:\Program Files\Java\jdk1.8.0_161\bin
-[14:49:32] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\bin
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\AppData\Local\Microsoft\WindowsApps
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\AppData\Local\atom\bin
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\AppData\Local\GitHubDesktop\bin
-[14:49:32] [main/DEBUG] [FML/]:     C:\Program Files\Microsoft VS Code\bin
-[14:49:32] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_151\bin
-[14:49:32] [main/DEBUG] [FML/]:     C:\Users\hteva\AppData\Local\Microsoft\WindowsApps
-[14:49:32] [main/DEBUG] [FML/]:     .
-[14:49:32] [main/DEBUG] [FML/]:     C:/Users/hteva/.gradle/caches/minecraft/net/minecraft/natives/1.12.2
-[14:49:32] [main/INFO] [FML/]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[14:49:32] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
-[14:49:32] [main/INFO] [FML/]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[14:49:32] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
-[14:49:32] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
-[14:49:32] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
-[14:49:32] [main/INFO] [FML/]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[14:49:32] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
-[14:49:32] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
-[14:49:32] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Users\hteva\Documents\MyMinecraftMods\Arcadia\run\.
-[14:49:32] [main/DEBUG] [FML/]: Discovering coremods
-[14:49:32] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[14:49:32] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[14:49:32] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[14:49:32] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:49:32] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[14:49:32] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[14:49:32] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:49:32] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:49:32] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:49:32] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
-[14:49:32] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
-[14:49:32] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
-[14:49:32] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
-[14:49:32] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
-[14:49:32] [main/DEBUG] [FML/]: Injection complete
-[14:49:32] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
-[14:49:32] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
-[14:49:33] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
-[14:49:33] [main/DEBUG] [FML/]: Loading deobfuscation resource C:\Users\hteva\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg with 36076 records
-[14:49:34] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
-[14:49:34] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
-[14:49:34] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:49:34] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
-[14:49:34] [main/DEBUG] [FML/]: Injection complete
-[14:49:34] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
-[14:49:34] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
-[14:49:34] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
-[14:49:34] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[14:49:34] [main/DEBUG] [FML/]: Loaded 208 rules from AccessTransformer config file forge_at.cfg
-[14:49:34] [main/DEBUG] [FML/]: Validating minecraft
-[14:49:35] [main/DEBUG] [FML/]: Minecraft validated, launching...
-[14:49:35] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[14:49:35] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[14:49:35] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[14:49:36] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[14:49:44] [main/DEBUG] [FML/]: Creating vanilla freeze snapshot
-[14:49:44] [main/DEBUG] [FML/]: Vanilla freeze snapshot created
-[14:49:46] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0.002s
-[14:49:46] [main/INFO] [FML/]: -- System Details --
+[15:12:48] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[15:12:48] [main/INFO] [FML/]: Forge Mod Loader version 14.23.1.2555 for Minecraft 1.12.2 loading
+[15:12:48] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_161, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_161\jre
+[15:12:48] [main/DEBUG] [FML/]: Java classpath at launch is:
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\minecraft\deobfedDeps\compileDummy.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\minecraft\deobfedDeps\providedDummy.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\minecraft\deobfedDeps\deobf\com\azanor\baubles\Baubles\1.12-1.5.2\Baubles-1.12-1.5.2.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\minecraft\net\minecraftforge\forge\1.12.2-14.23.1.2555\snapshot\20171003\forgeSrc-1.12.2-14.23.1.2555.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.1\f7be08ec23c21485b9b5a1cf1654c2ec8c58168d\jsr305-3.0.1.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\1.1\aef610b34a1be37fa851825f12372b78424d8903\patchy-1.1.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.4.0\cb208278274bf12ebdb56c61bd7407e6f774d65a\jna-4.4.0.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\platform\3.4.0\e3f70017be8100d3d6923f50b3d2ee17714e9c13\platform-3.4.0.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.3\cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a\jopt-simple-5.0.3.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.1.9.Final\97860965d6a0a6b98e7f569f3f966727b8db75\netty-all-4.1.9.Final.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\21.0\3a3d111be1be1b745edfa7d91678a12d7ed38709\guava-21.0.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.5\6c6c702c89bfff3cd9e80b04d668c5e190d588c6\commons-lang3-3.5.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.5\2852e6e05fbb95076fc091f6d1780f1f8fe35e0f\commons-io-2.5.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.25\9834cdf236c22e84b946bba989e2f94ef5897c3c\authlib-1.5.25.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.10.18\77a86d7596f49a6b01ad48f1a4a0d6546bc60df5\realms-1.10.18.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\7.1.0\9835253257524c1be7ab50c057aa2d418fb72082\fastutil-7.1.0.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.8.1\e801d13612e22cad62a3f4f3fe7fdbe6334a8e72\log4j-api-2.8.1.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.8.1\4ac28ff2f1ddf05dae3043a190451e8c46b73c31\log4j-core-2.8.1.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.10.3\48fd510879dff266c3815947de66e3d4809f8668\text2speech-1.10.3.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\jline\jline\2.13\2d9530d0a25daffaffda7c35037b046b627bb171\jline-2.13.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.2\3354e11e2b34215f06dab629ab88e06aca477c19\asm-debug-all-5.2.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.4-nightly-20150209\697517568c68e78ae0b4544145af031c81082dfe\lwjgl-2.9.4-nightly-20150209.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.4-nightly-20150209\d51a7c040a721d13efdfbd34f8b257b2df882ad0\lwjgl_util-2.9.4-nightly-20150209.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.5.2\79846ba34cbd89e2422d74d53752f993dcc2ccaf\vecmath-1.5.2.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.0.0\6ef160c3133a78de015830860197602ca1c855d3\java-objc-bridge-1.0.0.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.fusesource.jansi\jansi\1.11\655c643309c2f45a56a747fda70e3fadf57e9f11\jansi-1.11.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\931074f46c795d2f7b30ed6395df5715cfd7675b\lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\bcab850f8f487c3f4c4dbabde778bb82bd1a40ed\lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\.gradle\caches\minecraft\net\minecraftforge\forge\1.12.2-14.23.1.2555\start
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\Documents\MyMinecraftMods\Arcadia\build\libs\Arcadia-0.01.jar
+[15:12:48] [main/DEBUG] [FML/]: Java library path at launch is:
+[15:12:48] [main/DEBUG] [FML/]:     C:\Program Files\Java\jdk1.8.0_161\bin
+[15:12:48] [main/DEBUG] [FML/]:     C:\WINDOWS\Sun\Java\bin
+[15:12:48] [main/DEBUG] [FML/]:     C:\WINDOWS\system32
+[15:12:48] [main/DEBUG] [FML/]:     C:\WINDOWS
+[15:12:48] [main/DEBUG] [FML/]:     C:\ProgramData\Oracle\Java\javapath
+[15:12:48] [main/DEBUG] [FML/]:     C:\WINDOWS\system32
+[15:12:48] [main/DEBUG] [FML/]:     C:\WINDOWS
+[15:12:48] [main/DEBUG] [FML/]:     C:\WINDOWS\System32\Wbem
+[15:12:48] [main/DEBUG] [FML/]:     C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[15:12:48] [main/DEBUG] [FML/]:     C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+[15:12:48] [main/DEBUG] [FML/]:     C:\HashiCorp\Vagrant\bin
+[15:12:48] [main/DEBUG] [FML/]:     C:\Program Files (x86)\GtkSharp\2.12\bin
+[15:12:48] [main/DEBUG] [FML/]:     C:\Program Files\Git\cmd
+[15:12:48] [main/DEBUG] [FML/]:     C:\WINDOWS\system32
+[15:12:48] [main/DEBUG] [FML/]:     C:\WINDOWS
+[15:12:48] [main/DEBUG] [FML/]:     C:\WINDOWS\System32\Wbem
+[15:12:48] [main/DEBUG] [FML/]:     C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[15:12:48] [main/DEBUG] [FML/]:     C:\Program Files\Java\jdk1.8.0_161\bin
+[15:12:48] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\bin
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\AppData\Local\Microsoft\WindowsApps
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\AppData\Local\atom\bin
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\AppData\Local\GitHubDesktop\bin
+[15:12:48] [main/DEBUG] [FML/]:     C:\Program Files\Microsoft VS Code\bin
+[15:12:48] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_151\bin
+[15:12:48] [main/DEBUG] [FML/]:     C:\Users\hteva\AppData\Local\Microsoft\WindowsApps
+[15:12:48] [main/DEBUG] [FML/]:     .
+[15:12:48] [main/DEBUG] [FML/]:     C:/Users/hteva/.gradle/caches/minecraft/net/minecraft/natives/1.12.2
+[15:12:49] [main/INFO] [FML/]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[15:12:49] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[15:12:49] [main/INFO] [FML/]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[15:12:49] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[15:12:49] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[15:12:49] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[15:12:49] [main/INFO] [FML/]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[15:12:49] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[15:12:49] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[15:12:49] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Users\hteva\Documents\MyMinecraftMods\Arcadia\run\.
+[15:12:49] [main/DEBUG] [FML/]: Discovering coremods
+[15:12:49] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:12:49] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[15:12:49] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[15:12:49] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:12:49] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:12:49] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[15:12:49] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:12:49] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:12:49] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:12:49] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[15:12:49] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[15:12:49] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[15:12:49] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[15:12:49] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[15:12:49] [main/DEBUG] [FML/]: Injection complete
+[15:12:49] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[15:12:49] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[15:12:50] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[15:12:50] [main/DEBUG] [FML/]: Loading deobfuscation resource C:\Users\hteva\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg with 36076 records
+[15:12:51] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[15:12:51] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[15:12:51] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:12:51] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[15:12:51] [main/DEBUG] [FML/]: Injection complete
+[15:12:51] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[15:12:51] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[15:12:51] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[15:12:51] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:12:51] [main/DEBUG] [FML/]: Loaded 208 rules from AccessTransformer config file forge_at.cfg
+[15:12:51] [main/DEBUG] [FML/]: Validating minecraft
+[15:12:52] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[15:12:52] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[15:12:52] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:12:52] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:12:52] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[15:13:01] [main/DEBUG] [FML/]: Creating vanilla freeze snapshot
+[15:13:01] [main/DEBUG] [FML/]: Vanilla freeze snapshot created
+[15:13:03] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0.002s
+[15:13:03] [main/INFO] [FML/]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_161, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 704621320 bytes (671 MB) / 876085248 bytes (835 MB) up to 3793747968 bytes (3618 MB)
+	Memory: 697554752 bytes (665 MB) / 889192448 bytes (848 MB) up to 3793747968 bytes (3618 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 388.13' Renderer: 'GeForce GTX 960/PCIe/SSE2'
-[14:49:46] [main/INFO] [FML/]: MinecraftForge v14.23.1.2555 Initialized
-[14:49:46] [main/INFO] [FML/]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[14:49:46] [main/INFO] [FML/]: Replaced 1036 ore ingredients
-[14:49:46] [main/DEBUG] [FML/]: File C:\Users\hteva\Documents\MyMinecraftMods\Arcadia\run\config\injectedDependencies.json not found. No dependencies injected
-[14:49:46] [main/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
-[14:49:46] [main/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
-[14:49:46] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\minecraft\deobfedDeps\compileDummy.jar, examining for mod candidates
-[14:49:46] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\minecraft\deobfedDeps\providedDummy.jar, examining for mod candidates
-[14:49:46] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\minecraft\deobfedDeps\deobf\com\azanor\baubles\Baubles\1.12-1.5.2\Baubles-1.12-1.5.2.jar, examining for mod candidates
-[14:49:46] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\minecraft\net\minecraftforge\forge\1.12.2-14.23.1.2555\snapshot\20171003\forgeSrc-1.12.2-14.23.1.2555.jar, examining for mod candidates
-[14:49:46] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.1\f7be08ec23c21485b9b5a1cf1654c2ec8c58168d\jsr305-3.0.1.jar, examining for mod candidates
-[14:49:46] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\1.1\aef610b34a1be37fa851825f12372b78424d8903\patchy-1.1.jar, examining for mod candidates
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.4.0\cb208278274bf12ebdb56c61bd7407e6f774d65a\jna-4.4.0.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\platform\3.4.0\e3f70017be8100d3d6923f50b3d2ee17714e9c13\platform-3.4.0.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.3\cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a\jopt-simple-5.0.3.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.1.9.Final\97860965d6a0a6b98e7f569f3f966727b8db75\netty-all-4.1.9.Final.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\21.0\3a3d111be1be1b745edfa7d91678a12d7ed38709\guava-21.0.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.5\6c6c702c89bfff3cd9e80b04d668c5e190d588c6\commons-lang3-3.5.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.5\2852e6e05fbb95076fc091f6d1780f1f8fe35e0f\commons-io-2.5.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.25\9834cdf236c22e84b946bba989e2f94ef5897c3c\authlib-1.5.25.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.10.18\77a86d7596f49a6b01ad48f1a4a0d6546bc60df5\realms-1.10.18.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\7.1.0\9835253257524c1be7ab50c057aa2d418fb72082\fastutil-7.1.0.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.8.1\e801d13612e22cad62a3f4f3fe7fdbe6334a8e72\log4j-api-2.8.1.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.8.1\4ac28ff2f1ddf05dae3043a190451e8c46b73c31\log4j-core-2.8.1.jar
-[14:49:46] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.10.3\48fd510879dff266c3815947de66e3d4809f8668\text2speech-1.10.3.jar, examining for mod candidates
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar
-[14:49:46] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\jline\jline\2.13\2d9530d0a25daffaffda7c35037b046b627bb171\jline-2.13.jar
-[14:49:47] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.2\3354e11e2b34215f06dab629ab88e06aca477c19\asm-debug-all-5.2.jar, examining for mod candidates
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.4-nightly-20150209\697517568c68e78ae0b4544145af031c81082dfe\lwjgl-2.9.4-nightly-20150209.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.4-nightly-20150209\d51a7c040a721d13efdfbd34f8b257b2df882ad0\lwjgl_util-2.9.4-nightly-20150209.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.5.2\79846ba34cbd89e2422d74d53752f993dcc2ccaf\vecmath-1.5.2.jar
-[14:49:47] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.0.0\6ef160c3133a78de015830860197602ca1c855d3\java-objc-bridge-1.0.0.jar, examining for mod candidates
-[14:49:47] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.fusesource.jansi\jansi\1.11\655c643309c2f45a56a747fda70e3fadf57e9f11\jansi-1.11.jar, examining for mod candidates
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\931074f46c795d2f7b30ed6395df5715cfd7675b\lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar
-[14:49:47] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\bcab850f8f487c3f4c4dbabde778bb82bd1a40ed\lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar
-[14:49:47] [main/DEBUG] [FML/]: Found a minecraft related directory at C:\Users\hteva\.gradle\caches\minecraft\net\minecraftforge\forge\1.12.2-14.23.1.2555\start, examining for mod candidates
-[14:49:47] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\Documents\MyMinecraftMods\Arcadia\build\libs\Arcadia-0.01.jar, examining for mod candidates
-[14:49:47] [main/DEBUG] [FML/]: Minecraft jar mods loaded successfully
-[14:49:47] [main/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
-[14:49:47] [main/INFO] [FML/]: Searching C:\Users\hteva\Documents\MyMinecraftMods\Arcadia\run\mods for mods
-[14:49:47] [main/DEBUG] [FML/]: Examining file compileDummy.jar for potential mods
-[14:49:47] [main/DEBUG] [FML/]: The mod container compileDummy.jar appears to be missing an mcmod.info file
-[14:49:47] [main/DEBUG] [FML/]: Examining file providedDummy.jar for potential mods
-[14:49:47] [main/DEBUG] [FML/]: The mod container providedDummy.jar appears to be missing an mcmod.info file
-[14:49:47] [main/DEBUG] [FML/]: Examining file Baubles-1.12-1.5.2.jar for potential mods
-[14:49:47] [main/TRACE] [FML/]: Located mcmod.info file in file Baubles-1.12-1.5.2.jar
-[14:49:47] [main/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (baubles.common.Baubles) - loading
-[14:49:47] [main/TRACE] [baubles/]: Parsed dependency info : Requirements: [forge@[14.21.0.2348,)] After:[forge@[14.21.0.2348,)] Before:[]
-[14:49:47] [main/DEBUG] [FML/]: Examining file forgeSrc-1.12.2-14.23.1.2555.jar for potential mods
-[14:49:47] [main/DEBUG] [FML/]: The mod container forgeSrc-1.12.2-14.23.1.2555.jar appears to be missing an mcmod.info file
-[14:49:48] [main/DEBUG] [FML/]: Examining file jsr305-3.0.1.jar for potential mods
-[14:49:48] [main/DEBUG] [FML/]: The mod container jsr305-3.0.1.jar appears to be missing an mcmod.info file
-[14:49:48] [main/DEBUG] [FML/]: Examining file patchy-1.1.jar for potential mods
-[14:49:48] [main/DEBUG] [FML/]: The mod container patchy-1.1.jar appears to be missing an mcmod.info file
-[14:49:48] [main/DEBUG] [FML/]: Examining file text2speech-1.10.3.jar for potential mods
-[14:49:48] [main/DEBUG] [FML/]: The mod container text2speech-1.10.3.jar appears to be missing an mcmod.info file
-[14:49:48] [main/DEBUG] [FML/]: Examining file asm-debug-all-5.2.jar for potential mods
-[14:49:48] [main/DEBUG] [FML/]: The mod container asm-debug-all-5.2.jar appears to be missing an mcmod.info file
-[14:49:48] [main/DEBUG] [FML/]: Examining file java-objc-bridge-1.0.0.jar for potential mods
-[14:49:48] [main/DEBUG] [FML/]: The mod container java-objc-bridge-1.0.0.jar appears to be missing an mcmod.info file
-[14:49:48] [main/DEBUG] [FML/]: Examining file jansi-1.11.jar for potential mods
-[14:49:48] [main/DEBUG] [FML/]: The mod container jansi-1.11.jar appears to be missing an mcmod.info file
-[14:49:48] [main/DEBUG] [FML/]: Examining directory start for potential mods
-[14:49:48] [main/DEBUG] [FML/]: No mcmod.info file found in directory start
-[14:49:48] [main/TRACE] [FML/]: Recursing into package net
-[14:49:48] [main/TRACE] [FML/]: Recursing into package net/minecraftforge
-[14:49:48] [main/TRACE] [FML/]: Recursing into package net/minecraftforge/gradle
-[14:49:48] [main/TRACE] [FML/]: Recursing into package net/minecraftforge/gradle/tweakers
-[14:49:48] [main/DEBUG] [FML/]: Examining file Arcadia-0.01.jar for potential mods
-[14:49:48] [main/TRACE] [FML/]: Located mcmod.info file in file Arcadia-0.01.jar
-[14:49:48] [main/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (main.java.pi.arcadia.common.Arcadia) - loading
-[14:49:48] [main/TRACE] [arcadia/]: Parsed dependency info : Requirements: [] After:[] Before:[]
-[14:49:48] [main/INFO] [FML/]: Forge Mod Loader has identified 6 mods to load
-[14:49:48] [main/DEBUG] [FML/]: Found API baubles.api (owned by Baubles providing Baubles|API) embedded in baubles
-[14:49:48] [main/DEBUG] [FML/]: Creating API container dummy for API Baubles|API: owner: Baubles, dependents: [baubles]
-[14:49:48] [main/TRACE] [FML/]: Received a system property request ''
-[14:49:48] [main/TRACE] [FML/]: System property request managing the state of 0 mods
-[14:49:48] [main/DEBUG] [FML/]: After merging, found state information for 0 mods
-[14:49:48] [main/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
-[14:49:48] [main/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
-[14:49:48] [main/DEBUG] [baubles/]: Enabling mod baubles
-[14:49:48] [main/DEBUG] [arcadia/]: Enabling mod arcadia
-[14:49:48] [main/TRACE] [FML/]: Verifying mod requirements are satisfied
-[14:49:48] [main/TRACE] [FML/]: All mod requirements are satisfied
-[14:49:48] [main/TRACE] [FML/]: Sorting mods into an ordered list
-[14:49:48] [main/TRACE] [FML/]: Mod sorting completed successfully
-[14:49:48] [main/DEBUG] [FML/]: Mod sorting data
-[14:49:48] [main/DEBUG] [FML/]: 	Baubles|API(API: Baubles|API:1.4.0.2): Baubles-1.12-1.5.2.jar ()
-[14:49:48] [main/DEBUG] [FML/]: 	baubles(Baubles:1.5.2): Baubles-1.12-1.5.2.jar (required-after:forge@[14.21.0.2348,);)
-[14:49:48] [main/DEBUG] [FML/]: 	arcadia(Arcadia:0.01): Arcadia-0.01.jar ()
-[14:49:48] [main/DEBUG] [FML/]: Loading @Config anotation data
-[14:49:48] [main/TRACE] [minecraft/minecraft]: Sending event FMLConstructionEvent to mod minecraft
-[14:49:48] [main/TRACE] [minecraft/minecraft]: Sent event FMLConstructionEvent to mod minecraft
-[14:49:48] [main/DEBUG] [FML/]: Bar Step: Construction - Minecraft took 0.003s
-[14:49:48] [main/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
-[14:49:48] [main/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
-[14:49:48] [main/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
-[14:49:48] [main/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
-[14:49:49] [main/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
-[14:49:49] [main/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
-[14:49:49] [main/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
-[14:49:49] [main/INFO] [FML/FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, baubles, arcadia] at CLIENT
-[14:49:49] [main/INFO] [FML/FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, baubles, arcadia] at SERVER
-[14:49:50] [main/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
-[14:49:50] [main/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 1.480s
-[14:49:50] [main/TRACE] [forge/forge]: Sending event FMLConstructionEvent to mod forge
-[14:49:50] [main/DEBUG] [forge/forge]: Preloading CrashReport Classes
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$10
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$11
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$12
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$13
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$14
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$2
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$3
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$4
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$5
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$6
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$7
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$8
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$9
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$2
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$3
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$4
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$2
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$3
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$4
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/EntityRenderer$2
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/EntityRenderer$3
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/EntityRenderer$4
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderGlobal$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$2
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$3
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$4
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureAtlasSprite$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureManager$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureMap$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureMap$2
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureMap$3
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$2
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$3
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$4
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$5
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$6
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$7
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$2
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$3
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$4
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$5
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$2
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$3
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$4
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$5
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/EntityTracker$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/player/InventoryPlayer$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/nbt/NBTTagCompound$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/nbt/NBTTagCompound$2
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/network/NetHandlerPlayServer$3
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/network/NetworkSystem$6
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/server/MinecraftServer$2
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/server/MinecraftServer$3
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/server/dedicated/DedicatedServer$3
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/server/dedicated/DedicatedServer$4
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/server/integrated/IntegratedServer$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/server/integrated/IntegratedServer$2
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$2
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/TileEntity$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/TileEntity$2
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/TileEntity$3
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$2
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$3
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$4
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$5
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/world/chunk/Chunk$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/world/gen/structure/MapGenStructure$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/world/gen/structure/MapGenStructure$2
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/world/gen/structure/MapGenStructure$3
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$10
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$2
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$3
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$4
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$5
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$6
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$7
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$8
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$9
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable$Alignment
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable$Column
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable$Row
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/client/SplashProgress$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/ICrashCallable
-[14:49:50] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/Loader$1
-[14:49:50] [main/TRACE] [FML/forge]: Mod forge is using network checker : No network checking performed
-[14:49:50] [main/TRACE] [FML/forge]: Testing mod forge to verify it accepts its own version in a remote connection
-[14:49:50] [main/TRACE] [FML/forge]: The mod forge accepts its own version (14.23.1.2555)
-[14:49:50] [main/DEBUG] [FML/forge]: Attempting to inject @Config classes into forge for type INSTANCE
-[14:49:50] [main/TRACE] [forge/forge]: Sent event FMLConstructionEvent to mod forge
-[14:49:50] [main/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.157s
-[14:49:50] [main/TRACE] [baubles/baubles]: Sending event FMLConstructionEvent to mod baubles
-[14:49:50] [main/TRACE] [FML/baubles]: Mod baubles is using network checker : Accepting version 1.5.2
-[14:49:50] [main/TRACE] [FML/baubles]: Testing mod baubles to verify it accepts its own version in a remote connection
-[14:49:50] [main/TRACE] [FML/baubles]: The mod baubles accepts its own version (1.5.2)
-[14:49:50] [main/DEBUG] [FML/baubles]: Attempting to inject @SidedProxy classes into baubles
-[14:49:50] [main/DEBUG] [FML/baubles]: Attempting to inject @EventBusSubscriber classes into the eventbus for baubles
-[14:49:50] [main/DEBUG] [FML/baubles]: Registering @EventBusSubscriber for baubles.common.items.ItemRing for mod baubles
-[14:49:50] [main/DEBUG] [FML/baubles]: Injected @EventBusSubscriber class baubles.common.items.ItemRing
-[14:49:50] [main/DEBUG] [FML/baubles]: Attempting to inject @Config classes into baubles for type INSTANCE
-[14:49:50] [main/TRACE] [baubles/baubles]: Sent event FMLConstructionEvent to mod baubles
-[14:49:50] [main/DEBUG] [FML/]: Bar Step: Construction - Baubles took 0.069s
-[14:49:50] [main/TRACE] [arcadia/arcadia]: Sending event FMLConstructionEvent to mod arcadia
-[14:49:50] [main/TRACE] [FML/arcadia]: Mod arcadia is using network checker : Accepting version 0.01
-[14:49:50] [main/TRACE] [FML/arcadia]: Testing mod arcadia to verify it accepts its own version in a remote connection
-[14:49:50] [main/TRACE] [FML/arcadia]: The mod arcadia accepts its own version (0.01)
-[14:49:50] [main/DEBUG] [FML/arcadia]: Attempting to inject @SidedProxy classes into arcadia
-[14:49:50] [main/DEBUG] [FML/arcadia]: Attempting to inject @EventBusSubscriber classes into the eventbus for arcadia
-[14:49:50] [main/DEBUG] [FML/arcadia]: Registering @EventBusSubscriber for main.java.pi.arcadia.core.handler.RegistryHandler for mod arcadia
-[14:49:50] [main/DEBUG] [FML/arcadia]: Injected @EventBusSubscriber class main.java.pi.arcadia.core.handler.RegistryHandler
-[14:49:50] [main/DEBUG] [FML/arcadia]: Attempting to inject @Config classes into arcadia for type INSTANCE
-[14:49:50] [main/TRACE] [arcadia/arcadia]: Sent event FMLConstructionEvent to mod arcadia
-[14:49:50] [main/DEBUG] [FML/]: Bar Step: Construction - Arcadia took 0.030s
-[14:49:50] [main/DEBUG] [FML/]: Bar Finished: Construction took 1.739s
-[14:49:50] [main/DEBUG] [FML/]: Mod signature data
-[14:49:50] [main/DEBUG] [FML/]:  	Valid Signatures:
-[14:49:50] [main/DEBUG] [FML/]:  	Missing Signatures:
-[14:49:50] [main/DEBUG] [FML/]: 		minecraft	(Minecraft	1.12.2)	minecraft.jar
-[14:49:50] [main/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jar
-[14:49:50] [main/DEBUG] [FML/]: 		FML	(Forge Mod Loader	8.0.99.99)	forgeSrc-1.12.2-14.23.1.2555.jar
-[14:49:50] [main/DEBUG] [FML/]: 		forge	(Minecraft Forge	14.23.1.2555)	forgeSrc-1.12.2-14.23.1.2555.jar
-[14:49:50] [main/DEBUG] [FML/]: 		baubles	(Baubles	1.5.2)	Baubles-1.12-1.5.2.jar
-[14:49:50] [main/DEBUG] [FML/]: 		arcadia	(Arcadia	0.01)	Arcadia-0.01.jar
-[14:49:50] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.005s
-[14:49:50] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.037s
-[14:49:50] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.033s
-[14:49:50] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Baubles took 0.001s
-[14:49:50] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Arcadia took 0.001s
-[14:49:50] [main/DEBUG] [FML/]: Bar Finished: Reloading - LanguageManager took 0.043s
-[14:49:50] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0.045s
-[14:49:50] [main/DEBUG] [FML/]: Bar Finished: Loading Resources took 0.121s
-[14:49:50] [main/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
-[14:49:50] [main/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
-[14:49:50] [main/INFO] [FML/]: Processing ObjectHolder annotations
-[14:49:50] [main/INFO] [FML/]: Found 1169 ObjectHolder annotations
-[14:49:50] [main/INFO] [FML/]: Identifying ItemStackHolder annotations
-[14:49:50] [main/INFO] [FML/]: Found 0 ItemStackHolder annotations
-[14:49:50] [main/TRACE] [minecraft/minecraft]: Sending event FMLPreInitializationEvent to mod minecraft
-[14:49:50] [main/TRACE] [minecraft/minecraft]: Sent event FMLPreInitializationEvent to mod minecraft
-[14:49:50] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft took 0.001s
-[14:49:50] [main/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
-[14:49:50] [main/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
-[14:49:50] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
-[14:49:50] [main/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
-[14:49:50] [main/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
-[14:49:50] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.001s
-[14:49:50] [main/TRACE] [forge/forge]: Sending event FMLPreInitializationEvent to mod forge
-[14:49:51] [main/INFO] [FML/forge]: Configured a dormant chunk cache size of 0
-[14:49:51] [main/TRACE] [forge/forge]: Sent event FMLPreInitializationEvent to mod forge
-[14:49:51] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.108s
-[14:49:51] [main/TRACE] [baubles/baubles]: Sending event FMLPreInitializationEvent to mod baubles
-[14:49:51] [main/TRACE] [baubles/baubles]: Sent event FMLPreInitializationEvent to mod baubles
-[14:49:51] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Baubles took 0.093s
-[14:49:51] [main/TRACE] [arcadia/arcadia]: Sending event FMLPreInitializationEvent to mod arcadia
-[14:49:51] [main/TRACE] [arcadia/arcadia]: Sent event FMLPreInitializationEvent to mod arcadia
-[14:49:51] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Arcadia took 0.002s
-[14:49:51] [main/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.206s
-[14:49:51] [main/INFO] [FML/]: Applying holder lookups
-[14:49:51] [main/DEBUG] [FML/]: Unable to lookup baubles:ring for public static net.minecraft.item.Item baubles.common.items.ItemRing.RING. This means the object wasn't registered. It's likely just mod options.
-[14:49:51] [main/INFO] [FML/]: Holder lookups applied
-[14:49:51] [main/INFO] [FML/]: Applying holder lookups
-[14:49:51] [main/INFO] [FML/]: Holder lookups applied
-[14:49:51] [main/INFO] [FML/]: Applying holder lookups
-[14:49:51] [main/INFO] [FML/]: Holder lookups applied
-[14:49:51] [main/INFO] [FML/]: Applying holder lookups
-[14:49:51] [main/INFO] [FML/]: Holder lookups applied
-[14:49:51] [main/INFO] [FML/]: Injecting itemstacks
-[14:49:51] [main/INFO] [FML/]: Itemstack injection complete
-[14:49:51] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureManager took 0.001s
-[14:49:54] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - SoundHandler took 3.033s
-[14:49:54] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.006s
-[14:49:54] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.006s
-[14:49:54] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - GrassColorReloadListener took 0.018s
-[14:49:54] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0.010s
-[14:49:54] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - GL Setup took 0.004s
-[14:49:54] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Texture Map took 0.014s
-[14:49:54] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - B3DLoader took 0.000s
-[14:49:54] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - OBJLoader took 0.000s
-[14:49:54] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelFluid$FluidLoader took 0.000s
-[14:49:54] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - ItemLayerModel$Loader took 0.000s
-[14:49:54] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - MultiLayerModel$Loader took 0.000s
-[14:49:54] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelDynBucket$LoaderDynBucket took 0.000s
-[14:49:59] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 4.808s
-[14:50:01] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 1.633s
-[14:50:01] [main/INFO] [FML/]: Max texture size: 16384
-[14:50:01] [main/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.518s
-[14:50:01] [main/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.046s
-[14:50:01] [main/DEBUG] [FML/]: Bar Finished: Texture creation took 0.064s
-[14:50:01] [main/DEBUG] [FML/]: Bar Finished: Texture mipmap and upload took 0.043s
-[14:50:03] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: baking took 1.559s
-[14:50:03] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelManager took 8.962s
-[14:50:03] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Model Manager took 9.013s
-[14:50:03] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderItem took 0.004s
-[14:50:03] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Item Renderer took 0.355s
-[14:50:04] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - EntityRenderer took 0.000s
-[14:50:04] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - BlockRendererDispatcher took 0.000s
-[14:50:04] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderGlobal took 0.000s
-[14:50:04] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - SearchTreeManager took 0.196s
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Entity Renderer took 0.693s
-[14:50:04] [main/DEBUG] [FML/]: Bar Finished: Rendering Setup took 10.078s
-[14:50:04] [main/INFO] [FML/]: Applying holder lookups
-[14:50:04] [main/INFO] [FML/]: Holder lookups applied
-[14:50:04] [main/TRACE] [minecraft/minecraft]: Sending event FMLInitializationEvent to mod minecraft
-[14:50:04] [main/TRACE] [minecraft/minecraft]: Sent event FMLInitializationEvent to mod minecraft
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: Initialization - Minecraft took 0.001s
-[14:50:04] [main/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
-[14:50:04] [main/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.001s
-[14:50:04] [main/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
-[14:50:04] [main/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.000s
-[14:50:04] [main/TRACE] [forge/forge]: Sending event FMLInitializationEvent to mod forge
-[14:50:04] [main/TRACE] [forge/forge]: Sent event FMLInitializationEvent to mod forge
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.000s
-[14:50:04] [main/TRACE] [baubles/baubles]: Sending event FMLInitializationEvent to mod baubles
-[14:50:04] [main/TRACE] [baubles/baubles]: Sent event FMLInitializationEvent to mod baubles
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: Initialization - Baubles took 0.004s
-[14:50:04] [main/TRACE] [arcadia/arcadia]: Sending event FMLInitializationEvent to mod arcadia
-[14:50:04] [main/TRACE] [arcadia/arcadia]: Sent event FMLInitializationEvent to mod arcadia
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: Initialization - Arcadia took 0.002s
-[14:50:04] [main/DEBUG] [FML/]: Bar Finished: Initialization took 0.008s
-[14:50:04] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod minecraft
-[14:50:04] [main/TRACE] [minecraft/minecraft]: Sending event IMCEvent to mod minecraft
-[14:50:04] [main/TRACE] [minecraft/minecraft]: Sent event IMCEvent to mod minecraft
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft took 0.005s
-[14:50:04] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
-[14:50:04] [main/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
-[14:50:04] [main/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.000s
-[14:50:04] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
-[14:50:04] [main/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
-[14:50:04] [main/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s
-[14:50:04] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod forge
-[14:50:04] [main/TRACE] [forge/forge]: Sending event IMCEvent to mod forge
-[14:50:04] [main/TRACE] [forge/forge]: Sent event IMCEvent to mod forge
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
-[14:50:04] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod baubles
-[14:50:04] [main/TRACE] [baubles/baubles]: Sending event IMCEvent to mod baubles
-[14:50:04] [main/TRACE] [baubles/baubles]: Sent event IMCEvent to mod baubles
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Baubles took 0.000s
-[14:50:04] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod arcadia
-[14:50:04] [main/TRACE] [arcadia/arcadia]: Sending event IMCEvent to mod arcadia
-[14:50:04] [main/TRACE] [arcadia/arcadia]: Sent event IMCEvent to mod arcadia
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Arcadia took 0.000s
-[14:50:04] [main/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.007s
-[14:50:04] [main/INFO] [FML/]: Injecting itemstacks
-[14:50:04] [main/INFO] [FML/]: Itemstack injection complete
-[14:50:04] [main/TRACE] [minecraft/minecraft]: Sending event FMLPostInitializationEvent to mod minecraft
-[14:50:04] [main/TRACE] [minecraft/minecraft]: Sent event FMLPostInitializationEvent to mod minecraft
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft took 0.000s
-[14:50:04] [main/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
-[14:50:04] [main/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
-[14:50:04] [main/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
-[14:50:04] [main/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
-[14:50:04] [main/TRACE] [forge/forge]: Sending event FMLPostInitializationEvent to mod forge
-[14:50:04] [main/TRACE] [forge/forge]: Sent event FMLPostInitializationEvent to mod forge
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.018s
-[14:50:04] [main/TRACE] [baubles/baubles]: Sending event FMLPostInitializationEvent to mod baubles
-[14:50:04] [main/TRACE] [baubles/baubles]: Sent event FMLPostInitializationEvent to mod baubles
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Baubles took 0.000s
-[14:50:04] [main/TRACE] [arcadia/arcadia]: Sending event FMLPostInitializationEvent to mod arcadia
-[14:50:04] [main/TRACE] [arcadia/arcadia]: Sent event FMLPostInitializationEvent to mod arcadia
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Arcadia took 0.000s
-[14:50:04] [main/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.020s
-[14:50:04] [main/TRACE] [minecraft/minecraft]: Sending event FMLLoadCompleteEvent to mod minecraft
-[14:50:04] [main/TRACE] [minecraft/minecraft]: Sent event FMLLoadCompleteEvent to mod minecraft
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft took 0.000s
-[14:50:04] [main/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
-[14:50:04] [main/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
-[14:50:04] [main/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
-[14:50:04] [main/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
-[14:50:04] [main/TRACE] [forge/forge]: Sending event FMLLoadCompleteEvent to mod forge
-[14:50:04] [main/DEBUG] [FML/forge]: Forge RecipeSorter Baking:
-[14:50:04] [main/DEBUG] [FML/forge]:   16: RecipeEntry("Before", UNKNOWN, )
-[14:50:04] [main/DEBUG] [FML/forge]:   15: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
-[14:50:04] [main/DEBUG] [FML/forge]:   14: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
-[14:50:04] [main/DEBUG] [FML/forge]:   13: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
-[14:50:04] [main/DEBUG] [FML/forge]:   12: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
-[14:50:04] [main/DEBUG] [FML/forge]:   11: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
-[14:50:04] [main/DEBUG] [FML/forge]:   10: RecipeEntry("minecraft:shield_deco", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapeless
-[14:50:04] [main/DEBUG] [FML/forge]:   9: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
-[14:50:04] [main/DEBUG] [FML/forge]:   8: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
-[14:50:04] [main/DEBUG] [FML/forge]:   7: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
-[14:50:04] [main/DEBUG] [FML/forge]:   6: RecipeEntry("minecraft:tippedarrow", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapeless
-[14:50:04] [main/DEBUG] [FML/forge]:   5: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
-[14:50:04] [main/DEBUG] [FML/forge]:   4: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
-[14:50:04] [main/DEBUG] [FML/forge]:   3: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
-[14:50:04] [main/DEBUG] [FML/forge]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
-[14:50:04] [main/DEBUG] [FML/forge]:   1: RecipeEntry("After", UNKNOWN, )
-[14:50:04] [main/DEBUG] [FML/forge]: Sorting recipes
-[14:50:04] [main/TRACE] [forge/forge]: Sent event FMLLoadCompleteEvent to mod forge
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.023s
-[14:50:04] [main/TRACE] [baubles/baubles]: Sending event FMLLoadCompleteEvent to mod baubles
-[14:50:04] [main/TRACE] [baubles/baubles]: Sent event FMLLoadCompleteEvent to mod baubles
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Baubles took 0.001s
-[14:50:04] [main/TRACE] [arcadia/arcadia]: Sending event FMLLoadCompleteEvent to mod arcadia
-[14:50:04] [main/TRACE] [arcadia/arcadia]: Sent event FMLLoadCompleteEvent to mod arcadia
-[14:50:04] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Arcadia took 0.002s
-[14:50:04] [main/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.026s
-[14:50:04] [main/DEBUG] [FML/]: Freezing registries
-[14:50:05] [main/TRACE] [minecraft/minecraft]: Sending event FMLModIdMappingEvent to mod minecraft
-[14:50:05] [main/TRACE] [minecraft/minecraft]: Sent event FMLModIdMappingEvent to mod minecraft
-[14:50:05] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft took 0.001s
-[14:50:05] [main/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
-[14:50:05] [main/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
-[14:50:05] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
-[14:50:05] [main/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
-[14:50:05] [main/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
-[14:50:05] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
-[14:50:05] [main/TRACE] [forge/forge]: Sending event FMLModIdMappingEvent to mod forge
-[14:50:05] [main/TRACE] [forge/forge]: Sent event FMLModIdMappingEvent to mod forge
-[14:50:05] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.221s
-[14:50:05] [main/TRACE] [baubles/baubles]: Sending event FMLModIdMappingEvent to mod baubles
-[14:50:05] [main/TRACE] [baubles/baubles]: Sent event FMLModIdMappingEvent to mod baubles
-[14:50:05] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Baubles took 0.000s
-[14:50:05] [main/TRACE] [arcadia/arcadia]: Sending event FMLModIdMappingEvent to mod arcadia
-[14:50:05] [main/TRACE] [arcadia/arcadia]: Sent event FMLModIdMappingEvent to mod arcadia
-[14:50:05] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Arcadia took 0.001s
-[14:50:05] [main/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.223s
-[14:50:05] [main/DEBUG] [FML/]: All registries frozen
-[14:50:05] [main/INFO] [FML/]: Forge Mod Loader has successfully loaded 6 mods
-[14:50:05] [main/DEBUG] [FML/]: Bar Finished: Loading took 18.587s
-[14:50:05] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - CloudRenderer took 0.012s
-[14:50:17] [main/DEBUG] [FML/]: Overriding dimension: using 0
+[15:13:03] [main/INFO] [FML/]: MinecraftForge v14.23.1.2555 Initialized
+[15:13:03] [main/INFO] [FML/]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[15:13:03] [main/INFO] [FML/]: Replaced 1036 ore ingredients
+[15:13:03] [main/DEBUG] [FML/]: File C:\Users\hteva\Documents\MyMinecraftMods\Arcadia\run\config\injectedDependencies.json not found. No dependencies injected
+[15:13:03] [main/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[15:13:04] [main/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[15:13:04] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\minecraft\deobfedDeps\compileDummy.jar, examining for mod candidates
+[15:13:04] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\minecraft\deobfedDeps\providedDummy.jar, examining for mod candidates
+[15:13:04] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\minecraft\deobfedDeps\deobf\com\azanor\baubles\Baubles\1.12-1.5.2\Baubles-1.12-1.5.2.jar, examining for mod candidates
+[15:13:04] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\minecraft\net\minecraftforge\forge\1.12.2-14.23.1.2555\snapshot\20171003\forgeSrc-1.12.2-14.23.1.2555.jar, examining for mod candidates
+[15:13:04] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.1\f7be08ec23c21485b9b5a1cf1654c2ec8c58168d\jsr305-3.0.1.jar, examining for mod candidates
+[15:13:04] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\1.1\aef610b34a1be37fa851825f12372b78424d8903\patchy-1.1.jar, examining for mod candidates
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.4.0\cb208278274bf12ebdb56c61bd7407e6f774d65a\jna-4.4.0.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\platform\3.4.0\e3f70017be8100d3d6923f50b3d2ee17714e9c13\platform-3.4.0.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.3\cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a\jopt-simple-5.0.3.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.1.9.Final\97860965d6a0a6b98e7f569f3f966727b8db75\netty-all-4.1.9.Final.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\21.0\3a3d111be1be1b745edfa7d91678a12d7ed38709\guava-21.0.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.5\6c6c702c89bfff3cd9e80b04d668c5e190d588c6\commons-lang3-3.5.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.5\2852e6e05fbb95076fc091f6d1780f1f8fe35e0f\commons-io-2.5.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.25\9834cdf236c22e84b946bba989e2f94ef5897c3c\authlib-1.5.25.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.10.18\77a86d7596f49a6b01ad48f1a4a0d6546bc60df5\realms-1.10.18.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\7.1.0\9835253257524c1be7ab50c057aa2d418fb72082\fastutil-7.1.0.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.8.1\e801d13612e22cad62a3f4f3fe7fdbe6334a8e72\log4j-api-2.8.1.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.8.1\4ac28ff2f1ddf05dae3043a190451e8c46b73c31\log4j-core-2.8.1.jar
+[15:13:04] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.10.3\48fd510879dff266c3815947de66e3d4809f8668\text2speech-1.10.3.jar, examining for mod candidates
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\jline\jline\2.13\2d9530d0a25daffaffda7c35037b046b627bb171\jline-2.13.jar
+[15:13:04] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.2\3354e11e2b34215f06dab629ab88e06aca477c19\asm-debug-all-5.2.jar, examining for mod candidates
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.4-nightly-20150209\697517568c68e78ae0b4544145af031c81082dfe\lwjgl-2.9.4-nightly-20150209.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.4-nightly-20150209\d51a7c040a721d13efdfbd34f8b257b2df882ad0\lwjgl_util-2.9.4-nightly-20150209.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.5.2\79846ba34cbd89e2422d74d53752f993dcc2ccaf\vecmath-1.5.2.jar
+[15:13:04] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.0.0\6ef160c3133a78de015830860197602ca1c855d3\java-objc-bridge-1.0.0.jar, examining for mod candidates
+[15:13:04] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.fusesource.jansi\jansi\1.11\655c643309c2f45a56a747fda70e3fadf57e9f11\jansi-1.11.jar, examining for mod candidates
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\931074f46c795d2f7b30ed6395df5715cfd7675b\lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar
+[15:13:04] [main/TRACE] [FML/]: Skipping known library file C:\Users\hteva\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\bcab850f8f487c3f4c4dbabde778bb82bd1a40ed\lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar
+[15:13:04] [main/DEBUG] [FML/]: Found a minecraft related directory at C:\Users\hteva\.gradle\caches\minecraft\net\minecraftforge\forge\1.12.2-14.23.1.2555\start, examining for mod candidates
+[15:13:04] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\hteva\Documents\MyMinecraftMods\Arcadia\build\libs\Arcadia-0.01.jar, examining for mod candidates
+[15:13:04] [main/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[15:13:04] [main/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[15:13:04] [main/INFO] [FML/]: Searching C:\Users\hteva\Documents\MyMinecraftMods\Arcadia\run\mods for mods
+[15:13:04] [main/DEBUG] [FML/]: Examining file compileDummy.jar for potential mods
+[15:13:04] [main/DEBUG] [FML/]: The mod container compileDummy.jar appears to be missing an mcmod.info file
+[15:13:04] [main/DEBUG] [FML/]: Examining file providedDummy.jar for potential mods
+[15:13:04] [main/DEBUG] [FML/]: The mod container providedDummy.jar appears to be missing an mcmod.info file
+[15:13:04] [main/DEBUG] [FML/]: Examining file Baubles-1.12-1.5.2.jar for potential mods
+[15:13:04] [main/TRACE] [FML/]: Located mcmod.info file in file Baubles-1.12-1.5.2.jar
+[15:13:04] [main/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (baubles.common.Baubles) - loading
+[15:13:04] [main/TRACE] [baubles/]: Parsed dependency info : Requirements: [forge@[14.21.0.2348,)] After:[forge@[14.21.0.2348,)] Before:[]
+[15:13:04] [main/DEBUG] [FML/]: Examining file forgeSrc-1.12.2-14.23.1.2555.jar for potential mods
+[15:13:04] [main/DEBUG] [FML/]: The mod container forgeSrc-1.12.2-14.23.1.2555.jar appears to be missing an mcmod.info file
+[15:13:05] [main/DEBUG] [FML/]: Examining file jsr305-3.0.1.jar for potential mods
+[15:13:05] [main/DEBUG] [FML/]: The mod container jsr305-3.0.1.jar appears to be missing an mcmod.info file
+[15:13:05] [main/DEBUG] [FML/]: Examining file patchy-1.1.jar for potential mods
+[15:13:05] [main/DEBUG] [FML/]: The mod container patchy-1.1.jar appears to be missing an mcmod.info file
+[15:13:05] [main/DEBUG] [FML/]: Examining file text2speech-1.10.3.jar for potential mods
+[15:13:05] [main/DEBUG] [FML/]: The mod container text2speech-1.10.3.jar appears to be missing an mcmod.info file
+[15:13:05] [main/DEBUG] [FML/]: Examining file asm-debug-all-5.2.jar for potential mods
+[15:13:05] [main/DEBUG] [FML/]: The mod container asm-debug-all-5.2.jar appears to be missing an mcmod.info file
+[15:13:05] [main/DEBUG] [FML/]: Examining file java-objc-bridge-1.0.0.jar for potential mods
+[15:13:05] [main/DEBUG] [FML/]: The mod container java-objc-bridge-1.0.0.jar appears to be missing an mcmod.info file
+[15:13:05] [main/DEBUG] [FML/]: Examining file jansi-1.11.jar for potential mods
+[15:13:05] [main/DEBUG] [FML/]: The mod container jansi-1.11.jar appears to be missing an mcmod.info file
+[15:13:05] [main/DEBUG] [FML/]: Examining directory start for potential mods
+[15:13:05] [main/DEBUG] [FML/]: No mcmod.info file found in directory start
+[15:13:05] [main/TRACE] [FML/]: Recursing into package net
+[15:13:05] [main/TRACE] [FML/]: Recursing into package net/minecraftforge
+[15:13:05] [main/TRACE] [FML/]: Recursing into package net/minecraftforge/gradle
+[15:13:05] [main/TRACE] [FML/]: Recursing into package net/minecraftforge/gradle/tweakers
+[15:13:05] [main/DEBUG] [FML/]: Examining file Arcadia-0.01.jar for potential mods
+[15:13:05] [main/TRACE] [FML/]: Located mcmod.info file in file Arcadia-0.01.jar
+[15:13:05] [main/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (main.java.pi.arcadia.common.Arcadia) - loading
+[15:13:05] [main/TRACE] [arcadia/]: Parsed dependency info : Requirements: [] After:[] Before:[]
+[15:13:06] [main/INFO] [FML/]: Forge Mod Loader has identified 6 mods to load
+[15:13:06] [main/DEBUG] [FML/]: Found API baubles.api (owned by Baubles providing Baubles|API) embedded in baubles
+[15:13:06] [main/DEBUG] [FML/]: Creating API container dummy for API Baubles|API: owner: Baubles, dependents: [baubles]
+[15:13:06] [main/TRACE] [FML/]: Received a system property request ''
+[15:13:06] [main/TRACE] [FML/]: System property request managing the state of 0 mods
+[15:13:06] [main/DEBUG] [FML/]: After merging, found state information for 0 mods
+[15:13:06] [main/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[15:13:06] [main/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[15:13:06] [main/DEBUG] [baubles/]: Enabling mod baubles
+[15:13:06] [main/DEBUG] [arcadia/]: Enabling mod arcadia
+[15:13:06] [main/TRACE] [FML/]: Verifying mod requirements are satisfied
+[15:13:06] [main/TRACE] [FML/]: All mod requirements are satisfied
+[15:13:06] [main/TRACE] [FML/]: Sorting mods into an ordered list
+[15:13:06] [main/TRACE] [FML/]: Mod sorting completed successfully
+[15:13:06] [main/DEBUG] [FML/]: Mod sorting data
+[15:13:06] [main/DEBUG] [FML/]: 	Baubles|API(API: Baubles|API:1.4.0.2): Baubles-1.12-1.5.2.jar ()
+[15:13:06] [main/DEBUG] [FML/]: 	baubles(Baubles:1.5.2): Baubles-1.12-1.5.2.jar (required-after:forge@[14.21.0.2348,);)
+[15:13:06] [main/DEBUG] [FML/]: 	arcadia(Arcadia:0.01): Arcadia-0.01.jar ()
+[15:13:06] [main/DEBUG] [FML/]: Loading @Config anotation data
+[15:13:06] [main/TRACE] [minecraft/minecraft]: Sending event FMLConstructionEvent to mod minecraft
+[15:13:06] [main/TRACE] [minecraft/minecraft]: Sent event FMLConstructionEvent to mod minecraft
+[15:13:06] [main/DEBUG] [FML/]: Bar Step: Construction - Minecraft took 0.003s
+[15:13:06] [main/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[15:13:06] [main/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[15:13:06] [main/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[15:13:06] [main/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[15:13:06] [main/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[15:13:06] [main/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[15:13:06] [main/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
+[15:13:06] [main/INFO] [FML/FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, baubles, arcadia] at CLIENT
+[15:13:06] [main/INFO] [FML/FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, baubles, arcadia] at SERVER
+[15:13:07] [main/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[15:13:07] [main/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 1.556s
+[15:13:07] [main/TRACE] [forge/forge]: Sending event FMLConstructionEvent to mod forge
+[15:13:07] [main/DEBUG] [forge/forge]: Preloading CrashReport Classes
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$10
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$11
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$12
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$13
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$14
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$2
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$3
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$4
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$5
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$6
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$7
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$8
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$9
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$2
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$3
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$4
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$2
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$3
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$4
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/EntityRenderer$2
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/EntityRenderer$3
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/EntityRenderer$4
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderGlobal$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$2
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$3
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$4
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureAtlasSprite$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureManager$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureMap$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureMap$2
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureMap$3
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$2
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$3
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$4
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$5
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$6
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$7
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$2
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$3
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$4
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$5
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$2
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$3
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$4
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$5
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/EntityTracker$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/player/InventoryPlayer$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/nbt/NBTTagCompound$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/nbt/NBTTagCompound$2
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/network/NetHandlerPlayServer$3
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/network/NetworkSystem$6
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/server/MinecraftServer$2
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/server/MinecraftServer$3
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/server/dedicated/DedicatedServer$3
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/server/dedicated/DedicatedServer$4
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/server/integrated/IntegratedServer$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/server/integrated/IntegratedServer$2
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$2
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/TileEntity$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/TileEntity$2
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/TileEntity$3
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$2
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$3
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$4
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$5
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/world/chunk/Chunk$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/world/gen/structure/MapGenStructure$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/world/gen/structure/MapGenStructure$2
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/world/gen/structure/MapGenStructure$3
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$10
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$2
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$3
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$4
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$5
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$6
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$7
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$8
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$9
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable$Alignment
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable$Column
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable$Row
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/ICrashCallable
+[15:13:07] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/Loader$1
+[15:13:07] [main/TRACE] [FML/forge]: Mod forge is using network checker : No network checking performed
+[15:13:07] [main/TRACE] [FML/forge]: Testing mod forge to verify it accepts its own version in a remote connection
+[15:13:07] [main/TRACE] [FML/forge]: The mod forge accepts its own version (14.23.1.2555)
+[15:13:07] [main/DEBUG] [FML/forge]: Attempting to inject @Config classes into forge for type INSTANCE
+[15:13:07] [main/TRACE] [forge/forge]: Sent event FMLConstructionEvent to mod forge
+[15:13:07] [main/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.208s
+[15:13:07] [main/TRACE] [baubles/baubles]: Sending event FMLConstructionEvent to mod baubles
+[15:13:07] [main/TRACE] [FML/baubles]: Mod baubles is using network checker : Accepting version 1.5.2
+[15:13:07] [main/TRACE] [FML/baubles]: Testing mod baubles to verify it accepts its own version in a remote connection
+[15:13:07] [main/TRACE] [FML/baubles]: The mod baubles accepts its own version (1.5.2)
+[15:13:07] [main/DEBUG] [FML/baubles]: Attempting to inject @SidedProxy classes into baubles
+[15:13:07] [main/DEBUG] [FML/baubles]: Attempting to inject @EventBusSubscriber classes into the eventbus for baubles
+[15:13:07] [main/DEBUG] [FML/baubles]: Registering @EventBusSubscriber for baubles.common.items.ItemRing for mod baubles
+[15:13:08] [main/DEBUG] [FML/baubles]: Injected @EventBusSubscriber class baubles.common.items.ItemRing
+[15:13:08] [main/DEBUG] [FML/baubles]: Attempting to inject @Config classes into baubles for type INSTANCE
+[15:13:08] [main/TRACE] [baubles/baubles]: Sent event FMLConstructionEvent to mod baubles
+[15:13:08] [main/DEBUG] [FML/]: Bar Step: Construction - Baubles took 0.082s
+[15:13:08] [main/TRACE] [arcadia/arcadia]: Sending event FMLConstructionEvent to mod arcadia
+[15:13:08] [main/TRACE] [FML/arcadia]: Mod arcadia is using network checker : Accepting version 0.01
+[15:13:08] [main/TRACE] [FML/arcadia]: Testing mod arcadia to verify it accepts its own version in a remote connection
+[15:13:08] [main/TRACE] [FML/arcadia]: The mod arcadia accepts its own version (0.01)
+[15:13:08] [main/DEBUG] [FML/arcadia]: Attempting to inject @SidedProxy classes into arcadia
+[15:13:08] [main/DEBUG] [FML/arcadia]: Attempting to inject @EventBusSubscriber classes into the eventbus for arcadia
+[15:13:08] [main/DEBUG] [FML/arcadia]: Registering @EventBusSubscriber for main.java.pi.arcadia.core.handler.RegistryHandler for mod arcadia
+[15:13:08] [main/DEBUG] [FML/arcadia]: Injected @EventBusSubscriber class main.java.pi.arcadia.core.handler.RegistryHandler
+[15:13:08] [main/DEBUG] [FML/arcadia]: Attempting to inject @Config classes into arcadia for type INSTANCE
+[15:13:08] [main/TRACE] [arcadia/arcadia]: Sent event FMLConstructionEvent to mod arcadia
+[15:13:08] [main/DEBUG] [FML/]: Bar Step: Construction - Arcadia took 0.035s
+[15:13:08] [main/DEBUG] [FML/]: Bar Finished: Construction took 1.885s
+[15:13:08] [main/DEBUG] [FML/]: Mod signature data
+[15:13:08] [main/DEBUG] [FML/]:  	Valid Signatures:
+[15:13:08] [main/DEBUG] [FML/]:  	Missing Signatures:
+[15:13:08] [main/DEBUG] [FML/]: 		minecraft	(Minecraft	1.12.2)	minecraft.jar
+[15:13:08] [main/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jar
+[15:13:08] [main/DEBUG] [FML/]: 		FML	(Forge Mod Loader	8.0.99.99)	forgeSrc-1.12.2-14.23.1.2555.jar
+[15:13:08] [main/DEBUG] [FML/]: 		forge	(Minecraft Forge	14.23.1.2555)	forgeSrc-1.12.2-14.23.1.2555.jar
+[15:13:08] [main/DEBUG] [FML/]: 		baubles	(Baubles	1.5.2)	Baubles-1.12-1.5.2.jar
+[15:13:08] [main/DEBUG] [FML/]: 		arcadia	(Arcadia	0.01)	Arcadia-0.01.jar
+[15:13:08] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.006s
+[15:13:08] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.035s
+[15:13:08] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.031s
+[15:13:08] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Baubles took 0.001s
+[15:13:08] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Arcadia took 0.001s
+[15:13:08] [main/DEBUG] [FML/]: Bar Finished: Reloading - LanguageManager took 0.057s
+[15:13:08] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0.058s
+[15:13:08] [main/DEBUG] [FML/]: Bar Finished: Loading Resources took 0.132s
+[15:13:08] [main/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[15:13:08] [main/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[15:13:08] [main/INFO] [FML/]: Processing ObjectHolder annotations
+[15:13:08] [main/INFO] [FML/]: Found 1169 ObjectHolder annotations
+[15:13:08] [main/INFO] [FML/]: Identifying ItemStackHolder annotations
+[15:13:08] [main/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[15:13:08] [main/TRACE] [minecraft/minecraft]: Sending event FMLPreInitializationEvent to mod minecraft
+[15:13:08] [main/TRACE] [minecraft/minecraft]: Sent event FMLPreInitializationEvent to mod minecraft
+[15:13:08] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft took 0.002s
+[15:13:08] [main/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[15:13:08] [main/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[15:13:08] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
+[15:13:08] [main/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[15:13:08] [main/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[15:13:08] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.001s
+[15:13:08] [main/TRACE] [forge/forge]: Sending event FMLPreInitializationEvent to mod forge
+[15:13:08] [main/INFO] [FML/forge]: Configured a dormant chunk cache size of 0
+[15:13:08] [main/TRACE] [forge/forge]: Sent event FMLPreInitializationEvent to mod forge
+[15:13:08] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.140s
+[15:13:08] [main/TRACE] [baubles/baubles]: Sending event FMLPreInitializationEvent to mod baubles
+[15:13:08] [main/TRACE] [baubles/baubles]: Sent event FMLPreInitializationEvent to mod baubles
+[15:13:08] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Baubles took 0.126s
+[15:13:08] [main/TRACE] [arcadia/arcadia]: Sending event FMLPreInitializationEvent to mod arcadia
+[15:13:08] [main/TRACE] [arcadia/arcadia]: Sent event FMLPreInitializationEvent to mod arcadia
+[15:13:08] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Arcadia took 0.001s
+[15:13:08] [main/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.270s
+[15:13:08] [main/INFO] [FML/]: Applying holder lookups
+[15:13:08] [main/DEBUG] [FML/]: Unable to lookup baubles:ring for public static net.minecraft.item.Item baubles.common.items.ItemRing.RING. This means the object wasn't registered. It's likely just mod options.
+[15:13:08] [main/INFO] [FML/]: Holder lookups applied
+[15:13:08] [main/INFO] [FML/]: Applying holder lookups
+[15:13:08] [main/INFO] [FML/]: Holder lookups applied
+[15:13:08] [main/INFO] [FML/]: Applying holder lookups
+[15:13:08] [main/INFO] [FML/]: Holder lookups applied
+[15:13:08] [main/INFO] [FML/]: Applying holder lookups
+[15:13:08] [main/INFO] [FML/]: Holder lookups applied
+[15:13:08] [main/INFO] [FML/]: Injecting itemstacks
+[15:13:08] [main/INFO] [FML/]: Itemstack injection complete
+[15:13:08] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureManager took 0.000s
+[15:13:12] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - SoundHandler took 3.598s
+[15:13:12] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.004s
+[15:13:12] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.004s
+[15:13:12] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - GrassColorReloadListener took 0.013s
+[15:13:12] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0.014s
+[15:13:12] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - GL Setup took 0.006s
+[15:13:12] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Texture Map took 0.013s
+[15:13:12] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - B3DLoader took 0.000s
+[15:13:12] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - OBJLoader took 0.000s
+[15:13:12] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelFluid$FluidLoader took 0.000s
+[15:13:12] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - ItemLayerModel$Loader took 0.000s
+[15:13:12] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - MultiLayerModel$Loader took 0.000s
+[15:13:12] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelDynBucket$LoaderDynBucket took 0.000s
+[15:13:17] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 4.605s
+[15:13:19] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 1.553s
+[15:13:19] [main/INFO] [FML/]: Max texture size: 16384
+[15:13:19] [main/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.550s
+[15:13:19] [main/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.036s
+[15:13:19] [main/DEBUG] [FML/]: Bar Finished: Texture creation took 0.044s
+[15:13:19] [main/DEBUG] [FML/]: Bar Finished: Texture mipmap and upload took 0.048s
+[15:13:21] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: baking took 1.695s
+[15:13:21] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelManager took 8.896s
+[15:13:21] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Model Manager took 8.976s
+[15:13:22] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderItem took 0.007s
+[15:13:22] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Item Renderer took 0.575s
+[15:13:22] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - EntityRenderer took 0.000s
+[15:13:22] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - BlockRendererDispatcher took 0.000s
+[15:13:22] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderGlobal took 0.000s
+[15:13:23] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - SearchTreeManager took 0.224s
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Entity Renderer took 0.876s
+[15:13:23] [main/DEBUG] [FML/]: Bar Finished: Rendering Setup took 10.447s
+[15:13:23] [main/INFO] [FML/]: Applying holder lookups
+[15:13:23] [main/INFO] [FML/]: Holder lookups applied
+[15:13:23] [main/TRACE] [minecraft/minecraft]: Sending event FMLInitializationEvent to mod minecraft
+[15:13:23] [main/TRACE] [minecraft/minecraft]: Sent event FMLInitializationEvent to mod minecraft
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: Initialization - Minecraft took 0.001s
+[15:13:23] [main/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[15:13:23] [main/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.002s
+[15:13:23] [main/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[15:13:23] [main/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.003s
+[15:13:23] [main/TRACE] [forge/forge]: Sending event FMLInitializationEvent to mod forge
+[15:13:23] [main/TRACE] [forge/forge]: Sent event FMLInitializationEvent to mod forge
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[15:13:23] [main/TRACE] [baubles/baubles]: Sending event FMLInitializationEvent to mod baubles
+[15:13:23] [main/TRACE] [baubles/baubles]: Sent event FMLInitializationEvent to mod baubles
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: Initialization - Baubles took 0.009s
+[15:13:23] [main/TRACE] [arcadia/arcadia]: Sending event FMLInitializationEvent to mod arcadia
+[15:13:23] [main/TRACE] [arcadia/arcadia]: Sent event FMLInitializationEvent to mod arcadia
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: Initialization - Arcadia took 0.001s
+[15:13:23] [main/DEBUG] [FML/]: Bar Finished: Initialization took 0.015s
+[15:13:23] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod minecraft
+[15:13:23] [main/TRACE] [minecraft/minecraft]: Sending event IMCEvent to mod minecraft
+[15:13:23] [main/TRACE] [minecraft/minecraft]: Sent event IMCEvent to mod minecraft
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft took 0.006s
+[15:13:23] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[15:13:23] [main/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[15:13:23] [main/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.000s
+[15:13:23] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[15:13:23] [main/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[15:13:23] [main/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s
+[15:13:23] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod forge
+[15:13:23] [main/TRACE] [forge/forge]: Sending event IMCEvent to mod forge
+[15:13:23] [main/TRACE] [forge/forge]: Sent event IMCEvent to mod forge
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
+[15:13:23] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod baubles
+[15:13:23] [main/TRACE] [baubles/baubles]: Sending event IMCEvent to mod baubles
+[15:13:23] [main/TRACE] [baubles/baubles]: Sent event IMCEvent to mod baubles
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Baubles took 0.001s
+[15:13:23] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod arcadia
+[15:13:23] [main/TRACE] [arcadia/arcadia]: Sending event IMCEvent to mod arcadia
+[15:13:23] [main/TRACE] [arcadia/arcadia]: Sent event IMCEvent to mod arcadia
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Arcadia took 0.000s
+[15:13:23] [main/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.007s
+[15:13:23] [main/INFO] [FML/]: Injecting itemstacks
+[15:13:23] [main/INFO] [FML/]: Itemstack injection complete
+[15:13:23] [main/TRACE] [minecraft/minecraft]: Sending event FMLPostInitializationEvent to mod minecraft
+[15:13:23] [main/TRACE] [minecraft/minecraft]: Sent event FMLPostInitializationEvent to mod minecraft
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft took 0.000s
+[15:13:23] [main/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[15:13:23] [main/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[15:13:23] [main/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[15:13:23] [main/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.001s
+[15:13:23] [main/TRACE] [forge/forge]: Sending event FMLPostInitializationEvent to mod forge
+[15:13:23] [main/TRACE] [forge/forge]: Sent event FMLPostInitializationEvent to mod forge
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.016s
+[15:13:23] [main/TRACE] [baubles/baubles]: Sending event FMLPostInitializationEvent to mod baubles
+[15:13:23] [main/TRACE] [baubles/baubles]: Sent event FMLPostInitializationEvent to mod baubles
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Baubles took 0.000s
+[15:13:23] [main/TRACE] [arcadia/arcadia]: Sending event FMLPostInitializationEvent to mod arcadia
+[15:13:23] [main/TRACE] [arcadia/arcadia]: Sent event FMLPostInitializationEvent to mod arcadia
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Arcadia took 0.000s
+[15:13:23] [main/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.018s
+[15:13:23] [main/TRACE] [minecraft/minecraft]: Sending event FMLLoadCompleteEvent to mod minecraft
+[15:13:23] [main/TRACE] [minecraft/minecraft]: Sent event FMLLoadCompleteEvent to mod minecraft
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft took 0.000s
+[15:13:23] [main/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[15:13:23] [main/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
+[15:13:23] [main/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[15:13:23] [main/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
+[15:13:23] [main/TRACE] [forge/forge]: Sending event FMLLoadCompleteEvent to mod forge
+[15:13:23] [main/DEBUG] [FML/forge]: Forge RecipeSorter Baking:
+[15:13:23] [main/DEBUG] [FML/forge]:   16: RecipeEntry("Before", UNKNOWN, )
+[15:13:23] [main/DEBUG] [FML/forge]:   15: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[15:13:23] [main/DEBUG] [FML/forge]:   14: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[15:13:23] [main/DEBUG] [FML/forge]:   13: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[15:13:23] [main/DEBUG] [FML/forge]:   12: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[15:13:23] [main/DEBUG] [FML/forge]:   11: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[15:13:23] [main/DEBUG] [FML/forge]:   10: RecipeEntry("minecraft:shield_deco", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapeless
+[15:13:23] [main/DEBUG] [FML/forge]:   9: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[15:13:23] [main/DEBUG] [FML/forge]:   8: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[15:13:23] [main/DEBUG] [FML/forge]:   7: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[15:13:23] [main/DEBUG] [FML/forge]:   6: RecipeEntry("minecraft:tippedarrow", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapeless
+[15:13:23] [main/DEBUG] [FML/forge]:   5: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[15:13:23] [main/DEBUG] [FML/forge]:   4: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[15:13:23] [main/DEBUG] [FML/forge]:   3: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[15:13:23] [main/DEBUG] [FML/forge]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[15:13:23] [main/DEBUG] [FML/forge]:   1: RecipeEntry("After", UNKNOWN, )
+[15:13:23] [main/DEBUG] [FML/forge]: Sorting recipes
+[15:13:23] [main/TRACE] [forge/forge]: Sent event FMLLoadCompleteEvent to mod forge
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.012s
+[15:13:23] [main/TRACE] [baubles/baubles]: Sending event FMLLoadCompleteEvent to mod baubles
+[15:13:23] [main/TRACE] [baubles/baubles]: Sent event FMLLoadCompleteEvent to mod baubles
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Baubles took 0.000s
+[15:13:23] [main/TRACE] [arcadia/arcadia]: Sending event FMLLoadCompleteEvent to mod arcadia
+[15:13:23] [main/TRACE] [arcadia/arcadia]: Sent event FMLLoadCompleteEvent to mod arcadia
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Arcadia took 0.000s
+[15:13:23] [main/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.014s
+[15:13:23] [main/DEBUG] [FML/]: Freezing registries
+[15:13:23] [main/TRACE] [minecraft/minecraft]: Sending event FMLModIdMappingEvent to mod minecraft
+[15:13:23] [main/TRACE] [minecraft/minecraft]: Sent event FMLModIdMappingEvent to mod minecraft
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft took 0.002s
+[15:13:23] [main/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[15:13:23] [main/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[15:13:23] [main/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[15:13:23] [main/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.013s
+[15:13:23] [main/TRACE] [forge/forge]: Sending event FMLModIdMappingEvent to mod forge
+[15:13:23] [main/TRACE] [forge/forge]: Sent event FMLModIdMappingEvent to mod forge
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.252s
+[15:13:23] [main/TRACE] [baubles/baubles]: Sending event FMLModIdMappingEvent to mod baubles
+[15:13:23] [main/TRACE] [baubles/baubles]: Sent event FMLModIdMappingEvent to mod baubles
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Baubles took 0.000s
+[15:13:23] [main/TRACE] [arcadia/arcadia]: Sending event FMLModIdMappingEvent to mod arcadia
+[15:13:23] [main/TRACE] [arcadia/arcadia]: Sent event FMLModIdMappingEvent to mod arcadia
+[15:13:23] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Arcadia took 0.001s
+[15:13:23] [main/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.268s
+[15:13:23] [main/DEBUG] [FML/]: All registries frozen
+[15:13:23] [main/INFO] [FML/]: Forge Mod Loader has successfully loaded 6 mods
+[15:13:23] [main/DEBUG] [FML/]: Bar Finished: Loading took 19.923s
+[15:13:24] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - CloudRenderer took 0.009s
+[15:13:54] [main/DEBUG] [FML/]: Overriding dimension: using 0

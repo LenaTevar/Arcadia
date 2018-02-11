@@ -4,6 +4,7 @@ import org.lwjgl.input.Keyboard;
 import org.lwjgl.input.Mouse;
 import org.lwjgl.opengl.GL11;
 
+import main.java.pi.arcadia.core.lib.ArcadiaTextLib;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
@@ -34,9 +35,9 @@ public class GuiGuide extends GuiScreen {
 		bookPageTexture[2] = new ResourceLocation("Arcadia:textures/gui/book.png");
 		bookPageTexture[3] = new ResourceLocation("Arcadia:textures/gui/book.png");
 		stringText[0] = "";
-		stringText[1] = "Page 1 Stuff";
-		stringText[2] = "Page 2 Stuff";
-		stringText[3] = "Page 3 Stuff";
+		stringText[1] = ArcadiaTextLib.textWelcome;
+		stringText[2] = ArcadiaTextLib.textBabelFish;
+		stringText[3] = ArcadiaTextLib.textForceFieldBelt;
 	}
 
 	/**
