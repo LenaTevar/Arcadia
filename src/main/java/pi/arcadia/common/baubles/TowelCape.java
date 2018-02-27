@@ -18,19 +18,20 @@ import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
-public class BeltBaubles extends Item implements IBauble,IHasModel {
+public class TowelCape extends Item implements IBauble,IHasModel {
 
-	
-	public BeltBaubles(String name) {
+	public  TowelCape(String name) {
 		super();
 		setMaxStackSize(1);
-		setHasSubtypes(false); 
+		setHasSubtypes(false);
 		setMaxDamage(0);
+		
 		setUnlocalizedName(Reference.MODID + "." + name);
 		setRegistryName(name);
 		setCreativeTab(Arcadia.ArcadiaTab);
+		
 	}
-
+	
 	@Override
 	public void registerModels() {
 		Arcadia.proxy.registerItemRenderer(this, 0, "inventory");
@@ -38,7 +39,7 @@ public class BeltBaubles extends Item implements IBauble,IHasModel {
 
 	@Override
 	public BaubleType getBaubleType(ItemStack itemstack) {
-		return BaubleType.BELT;
+		return BaubleType.BODY;
 	}
 	
 	@Override
@@ -64,6 +65,4 @@ public class BeltBaubles extends Item implements IBauble,IHasModel {
 			player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE,40,0,true,false));
 		}
 	}
-	
-
 }

@@ -9,7 +9,7 @@ import net.minecraft.item.ItemArmor;
 
 public class ArmorBase extends ItemArmor implements IHasModel {
 /*
- * Leggins have 2 render index. 
+ * Leggings have 2 render index. 
  * */
 	public ArmorBase(String name, ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn) {
 		super(materialIn, renderIndexIn, equipmentSlotIn);
